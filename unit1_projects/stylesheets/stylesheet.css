@@ -6,7 +6,7 @@
 #headertext {
 	text-align: center;
 	font-family: Copperplate;
-	font-size: 750%;
+	font-size: 700%;
 	position: absolute;
 	margin-top: 9%;
 	margin-left: 7%;
@@ -32,4 +32,9 @@ img.center {
   margin-right: auto;
   border: 2px solid black;
   padding: 2px;
+}
+
+a.hover {
+	text-decoration: none;
+	color: red;
 }
