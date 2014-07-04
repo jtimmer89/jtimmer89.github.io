@@ -1,34 +1,116 @@
+/* ---Header Formatting--- */
+
+#headerlinks {
+	background-color: #BCBCBC;
+	display: inline-block;
+	height: 6%;
+	position: fixed;
+	width: 100%;
+}
+
 #headerpic {
 	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 #headertext {
-	text-align: center;
-	font-family: Copperplate;
-	font-size: 700%;
+	color: #E9E9E9;
+	font-family: "Changa One";
+	font-size: 5em;
+	font-weight: 400;
+	margin-top: -21%;
 	position: absolute;
-	margin-top: 9%;
-	margin-left: 7%;
-	color: white;
+	text-align: center;
+	width: 65%;
 }
 
-span {
-	color: black;
+.selected {
+	color: #E9E9E9;
 }
 
-div {
-	position: absolute;
-	margin-top: 33%;
+header div h2 a {
+	color: #424242;
+	float: left;
+	font-family: "Droid Sans";
+	font-weight: 700;
+	margin-top: 0.2%;
+	padding: .5em;
+	text-decoration: none;
 }
 
-body div h2 {
+header div h2 a:hover {
+	color: #E9E9E9;
+}
+
+#whichweek {
+	color: #424242;
+	float: right;
+	font-family: "Droid Sans";
+	font-weight: 700;
+	margin-top: 0.2%;
+	padding: .5em;
+}
+
+/* ---Body Formatting--- */
+
+#about {
+	float: right;
+	margin-right: 17em;
+	margin-top: 3em;
+	text-align: left;
+	width: 40%;
+}
+
+#contact {
+	float: right;
+	margin-right: 16em;
+	margin-top: 5em;
+}
+
+#description {
+	float: left;
+	margin-left: 16em;
+	margin-top: 5em;
+	text-align: left;
+	width: 40%;
+}
+
+#profilepic {
+	left: right;
+	margin-left: 17em;
+	margin-top: 3em;
+}
+
+.week {
+	background-color: #BCBCBC;
+	display: inline-block;
+	height: 8.5em;
+	margin: 5%;
+	position: static;
+	text-align: center;
+	width: 23%;
+}
+
+body section article a {
+	color: #424242;
+	font-family: "Open Sans";
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+}
+
+body section article a:hover {
+	color: #E9E9E9;
+}
+
+body section article h2 {
+	color: #FF9900;
+	font-family: "Droid Sans";
+	font-size: 2em;
+	font-weight: 700;
 	text-align: center;
 }
 
-img.center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,21 +118,55 @@ img.center {
   padding: 2px;
 }
 
-a.hover {
-	text-decoration: none;
-	color: red;
-}
-
 figcaption {
 	text-align: center;
 	font-size: 16px;
 }
 
-h3 {
+section article p {
+	color: #424242;
+	font-family: "Droid Sans";
+	font-weight: 300;
+	line-height: 1.5;
+	text-indent: 2em;
+}
+
+section article ul li {
+	color: #424242;
+	font-family: "Droid Sans";
+	font-weight: 300;
+	line-height: 1.5;
 	text-align: center;
 }
 
-#box {
-	position: relative;
-	left: 34%;
+/* ---Footer Formatting--- */
+
+footer {
+	background-color: #424242;
+	bottom: 0px;
+	display: inline-block;
+	height: 4%;
+	position: fixed;
+	text-align: right;
+	width: 100%;
+}
+
+footer a {
+	color: #BCBCBC;
+	margin-bottom: 0px;
+	padding-top: .4em;
+	position: relative;	
+}
+
+footer a:hover {
+	color: #FF9900;
+}
+
+footer h2 {
+	color: #BCBCBC;
+	display: inline-block;
+	font-family: "Droid Sans";
+	font-size: 0.75em;
+	font-weight: 700;
+	padding: 0.5em;
 }
