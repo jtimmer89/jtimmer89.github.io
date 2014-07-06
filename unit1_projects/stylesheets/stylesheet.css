@@ -1,3 +1,29 @@
+/* ---Mobile Formatting--- */
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+
+	#headerpic {
+		height: 30%;
+		width: 100%;
+	}
+
+	#headertext {
+		color: #E9E9E9;
+		font-family: "Changa One";
+		font-size: 2em;
+		font-weight: 400;
+		margin-top: -1.5em;
+		position: absolute;
+		text-align: center;
+		width: 65%;
+	}
+
+	.week {
+		display: block;
+	}
+
+} */
+
 /* ---Header Formatting--- */
 
 #headerlinks {
@@ -75,7 +101,7 @@ header div h2 a:hover {
 }
 
 #profilepic {
-	left: right;
+	float: left;
 	margin-left: 17em;
 	margin-top: 3em;
 }
@@ -118,9 +144,11 @@ body section article h2 {
   padding: 2px;
 }
 
-figcaption {
+section article figure figcaption {
+	font-family: "Droid Sans";
+	font-weight: 300;
+	font-size: .8em;
 	text-align: center;
-	font-size: 16px;
 }
 
 section article p {
