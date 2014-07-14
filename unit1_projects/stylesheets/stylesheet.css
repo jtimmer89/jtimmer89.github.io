@@ -1,6 +1,6 @@
 /* ---Mobile Formatting--- */
 
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+@media only screen and (max-width: 767px) {
 
 	#headerpic {
 		height: 30%;
@@ -18,17 +18,14 @@
 		width: 65%;
 	}
 
-	.week {
-		display: block;
-	}
-
-} */
+}
 
 /* ---Header Formatting--- */
 
 #headerlinks {
 	background-color: #BCBCBC;
 	display: inline-block;
+	font-size: 1em;
 	height: 6%;
 	position: fixed;
 	width: 100%;
@@ -108,12 +105,15 @@ header div h2 a:hover {
 
 .week {
 	background-color: #BCBCBC;
-	display: inline-block;
+	display: block;
 	height: 8.5em;
-	margin: 5%;
+	margin-bottom: 3%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 3%;
 	position: static;
 	text-align: center;
-	width: 23%;
+	width: 60%;
 }
 
 body section article a {

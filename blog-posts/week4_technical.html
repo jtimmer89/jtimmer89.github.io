@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/stylesheet.css"/>
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/reset.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|PT+Sans:400,700|Droid+Serif|Open+Sans:400,300|Changa+One' rel='stylesheet' type='text/css'>
+	<link href="../unit1_projects/stylesheets/font-awesome-4.1.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+	<meta charset="UTF-8">
+	<title>jtimmer's pagitron</title>
+</head>
+<body>
+	<header>
+		<div id="headerlinks">
+			<h2>
+				<a href="../index.html">Home</a>
+				<a href="../about.html"> About</a>
+				<a href="../contact.html"> Contact</a>
+			</h2>
+			<p id="whichweek">Week 4</p>
+		</div>
+
+
+		<img id="headerpic" src="../unit1_projects/images/WaterDrops_16.jpg">
+		<h1 id="headertext">Technical Blog</h1>
+	</header>
+
+	<section>
+		<article>
+			<br>
+			<h2>Ways to Loop in Ruby</h2>
+			<br>
+			<p>Compared to our work with javascript last week, Ruby offers numerous ways of looping for different circumstances. The different loop statements include the following: times, each, for, while, until, do/break if, and upto. I’m sure I missed some ways as there are many ways to loop or iterate in Ruby. Let’s take a look at the different ways I mentioned.<br><br>Times does a simple looping any number of times.<br><br><br>10.times<br>puts “Joe Timmer is real neat”<br>end<br><br>The each method can be used with an array to do something to each item in the array. This will add -cat to each cat name (Marty-cat).<br><br>cats = [“Marty”, “Harry”, “Samantha”]<br>cats.each { |names| puts names + “-cat” }<br><br>The for loop is also used in javascript but it has a different syntax in Ruby.<br><br>for i in 1..10<br>puts “Joe Timmer is real neat”<br>end<br><br>The while loop does a block of code while a certain condition is true.<br><br>i = 0<br>while i < 10<br>puts “Joe Timmer is real neat”<br>i += 1<br>end<br><br>The until loop starts to make you think. It does a block of code until something is true, like a backwards while loop.<br><br>i = 1<br>until i > 10<br>puts “Joe Timmer is real neat”<br>i += 1<br>end<br><br> The do/break if loop allows you to do something and stop doing it if a condition is true.<br><br>i = 1<br>loop do<br>puts “Joe Timmer is real neat”<br>i += 1<br>break if i > 10<br>end<br><br>The final loop that I want to look at is a simple one. Upto. It basically does a block of code from one number up to another number times.<br><br>1.upto(10) do<br>puts “Joe Timmer is real neat”<br>end<br></p>
+		</article>
+
+		<article>
+			<br>
+			<h2>How to Decide which Loop to Use</h2>
+			<br>
+			<p>There are many ways to use these different loops other than the basic syntax that I gave in the examples, but how do you decide which to use given the challenge you are working on? I had a hard time finding many resources on which loop is best so this will basically be from my own noggin. I look for readability. What makes sense if you were writing the code as an English sentence? This can help you decide which keyword to use. Also, how many lines can you do the code in? The less, the better. Finally, how is the computer processing the code? You want your code to be readable, concise, and fast. I would consider these three factors when looking at which keyword to use. Does is sound good? Does another loop allow for less code? The third one is a bit more complex and will probably take time to really consider after learning how each keyword works more fully.</p>	
+			<br>
+			<br>
+		</article>
+	</section>
+
+	<footer>
+		<a class="fa fa-facebook-square" a href ="https://www.facebook.com/jtimmer89"></a>
+		<a class="fa fa-linkedin-square" a href ="http://www.linkedin.com/in/jtimmer89/"></a>
+		<a class="fa fa-github-alt" a href ="https://github.com/jtimmer89"></a>
+		<a class="fa fa-google-plus" a href ="https://plus.google.com/u/0/117458802088015371709/"></a>
+		<h2>jtimmer89©</h2>
+	</footer>
+</body>
