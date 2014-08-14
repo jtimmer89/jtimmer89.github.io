@@ -109,6 +109,11 @@ header div h2 a:hover {
 	margin-top: 3em;
 }
 
+.blog_link {
+	color: blue;
+	text-decoration: underline;
+}
+
 .week {
 	background-color: #BCBCBC;
 	display: block;
