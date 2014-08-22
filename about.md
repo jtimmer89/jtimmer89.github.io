@@ -7,7 +7,7 @@ title: About the site and its author.
   I am currently in Dev Bootcamp. I am learning HTML, CSS, Javascript, and Ruby on Rails among other technologies. I made this website to host blog posts that I will be writing throughout my DBC experience. 
 </div>
 
-{% include image.html url="/assets/images/profilepic.gif" width="20%" %}
+{% include image.html url="/assets/images/profilepic.gif" width="20%" description="Professor Small Pine" %}
 
 You can reach me at 406.599.3209 or joe.timmer89@gmail.com.
 
