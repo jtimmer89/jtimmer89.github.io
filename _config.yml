@@ -1,15 +1,17 @@
 # Dependencies
-markdown:	redcarpet
-highlighter:	true
+markdown:	kramdown
+highlighter:	pygments
 
 # Permalinks
 permalink:	/blog/:title
 
 # Setup
-title:		jtimmer
+title:		Joe Timmer
 tagline:	'blog'
 description:	'My personal blog.'
 url:		http://jtimmer89.github.io/
+commentsystem:	google
+disqus:		example
 
 author:
   name:		'Joseph Timmer'
@@ -19,7 +21,7 @@ paginate:	5
 
 # Custom vars
 icon:		/assets/images/icon.png
-cover:	/assets/images/TheCity_18.jpg
+cover:  /assets/images/TheCity_18.jpg
 
 social:
   - icon:	twitter
@@ -33,13 +35,23 @@ social:
   - icon:	googleplus-alt
     url:	https://plus.google.com/+JosephTimmer
     desc:	Add me on google+
+
+  - icon:	feed
+    url:	http://jtimmer89.github.io/atom.xml
+    desc:	Subscribe to my feed
+    
 menu:
   - title:	Home
     url:	/
+    
   - title:	About
     url:	/about
+    
 copyright:
   author:	Camporez
   url:		http://camporez.com
   type_title:	Some rights reserved
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:

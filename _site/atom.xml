@@ -1,62 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link href="http://gmpg.org/xfn/11" rel="profile">
+	<head>
+	
+	<link href="//gmpg.org/xfn/11" rel="profile">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title> &middot; jtimmer</title>
+	<title> &middot; Joe Timmer</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1001px)" href="/assets/css/desktop.css" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1000px)" href="/assets/css/mobile.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 900px)" href="/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 899px)" href="/assets/css/mobile.css" />
 	<link href="/assets/css/genericons.css" type="text/css" rel="stylesheet" />
 	<link href="/assets/css/syntax.css" type="text/css" rel="stylesheet" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fenix:400,400italic">
 	<link rel="apple-touch-icon" href="http://jtimmer89.github.io//assets/images/icon.png">
 	<link rel="shortcut icon" href="http://jtimmer89.github.io//assets/images/favicon.ico">
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://jtimmer89.github.io//atom.xml">
+	<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.stellar.min.js"></script>
+	
 </head>
-<body>
-	<header class="clean" style="height: 350px; background-image: url(/assets/images/TheCity_18.jpg);">
-	<label class="menu" for="_1">
-	<span class="genericon genericon-menu"></span>
-</label>
-<input id="_1" type="checkbox">
-<div class="menu-content">
-	<div class="menu" style="background-color: #777; z-index: -1;"></div>
-	
-	<a href="/">Home</a><br>
-	
-	<a href="/about">About</a><br>
-	
-</div>
-<div class="social-links">
-	
-	<a href="https://twitter.com/ProfSmallPine" target="_blank" title="Follow me on twitter"><span class="genericon genericon-twitter"></span></a>
-	
-	<a href="https://github.com/jtimmer89" target="_blank" title="Fork me on github"><span class="genericon genericon-github"></span></a>
-	
-	<a href="https://plus.google.com/+JosephTimmer" target="_blank" title="Add me on google+"><span class="genericon genericon-googleplus-alt"></span></a>
-	
-</div>
-	<div id="home-title">
-		<a href="http://jtimmer89.github.io/">
-			<img src="/assets/images/icon.png" class="site-icon-page">
-		</a>
-	</div>
-	<div id="post-info" style="bottom: 30px; text-align: center; line-height: 45px;">
-		<h1></h1>
-	</div>
-</header>
-<div id="article">
-	<?xml version="1.0" encoding="utf-8"?>
+
+	<body>
+		<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>jtimmer</title>
+ <title>Joe Timmer</title>
  <link href="http://jtimmer89.github.io//atom.xml" rel="self"/>
  <link href="http://jtimmer89.github.io//"/>
- <updated>2014-08-22T11:39:13-05:00</updated>
+ <updated>2014-08-22T14:29:48-05:00</updated>
  <id>http://jtimmer89.github.io/</id>
  <author>
    <name>Joseph Timmer</name>
@@ -69,27 +42,27 @@
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week9"/>
    <updated>2014-08-18T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week9</id>
-   <content type="html">&lt;h1&gt;Asking &lt;em&gt;Good&lt;/em&gt; Questions&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;asking-emgoodem-questions&quot;&gt;Asking &lt;em&gt;Good&lt;/em&gt; Questions&lt;/h1&gt;
 
 &lt;p&gt;For the blogs that Dev Bootcamp asks that Boots write each week, their simple existence places emphasis on whatever topic they happen to choose. For this week, the topic is on asking questions. The technological world is one that exists on the basis of sharing knowledge through simple questions and answers seeking to create through web languages. Considering the questions you are asking and their effectiveness is a good thing to spend time on, but it has not really crossed my mind whether or not I have been asking good questions. I want to first discuss what a good question looks like and the environment a good question comes from before looking at the history of my posts in the Google+ community for DBC to explore how I have done so far.&lt;/p&gt;
 
-&lt;h2&gt;Question Environment&lt;/h2&gt;
+&lt;h2 id=&quot;question-environment&quot;&gt;Question Environment&lt;/h2&gt;
 
 &lt;p&gt;What I call the environment of a question is the time that precedes the question. Given the depth of the question, there needs to be a worthy period of research to see what already exists in response to what you are seeking. Try a couple different ways of phrasing the question for example in google. You also don’t want to loose 5 hours seeking an answer. There should be a trigger that hints that it is time to ask for help and include some of your research to ask the question more fully. This moment when a question is necessary is what I would call the right environment for a question to be asked and received well. &lt;/p&gt;
 
 &lt;p&gt;If you are in the right environment, then what do you ask? This is a great thing to think about because coming to programming, there are millions of questions that I have about everything. I have found myself at the point well past when it was time to ask a question, but looking at posts on Stack Overflow, there are so many variations of how questions are asked, and I really had no idea about what specifically to ask. Stack Overflow actually has the perfect summary on how to create a well crafted question &lt;a href=&quot;http://stackoverflow.com/help/how-to-ask&quot;&gt;here&lt;/a&gt;. Rather than summing that up, I want to just summarize what makes a good question from my perspective and research.&lt;/p&gt;
 
-&lt;h2&gt;Question Culture&lt;/h2&gt;
+&lt;h2 id=&quot;question-culture&quot;&gt;Question Culture&lt;/h2&gt;
 
 &lt;p&gt;The first and most important thing is to consider the culture you are entering as a newb programmer. Another great research for good question asking can be found &lt;a href=&quot;http://catb.org/esr/faqs/smart-questions.html&quot;&gt;here&lt;/a&gt;. In this article, the authors bring up the point that a good question is a blessing for someone who is genuinely interested in programming. The programmer enjoys understanding things completely and a good question could raise something they didn’t consider. However, a good question is the key phrase in that sentence. You may find hostility if you don’t do you own research and seek to discover the answer on your own. Questions shouldn’t be about quick answers but deeper understanding. &lt;/p&gt;
 
 &lt;p&gt;Deeper understanding comes from wrestling and chewing on hard tasks on your own and asking questions after resolution cannot be found. As I develop as a programmer, I will become a resource for others and will take my own precious, personal time to help explain things to others because that is why I am entering programming, to help others and to understand things fully. However, will I want to help people looking for a quick way to solve their problem when they haven’t tried hard themselves to figure it out? No, that would make me angry. Thus, it makes sense that it is worth really considering why you are asking a question and considering what kind of questions you want to put out into the universe.&lt;/p&gt;
 
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;Based on this initial rant, when you ask a question, show that you have put in an effort to solve the problem, even if it is brief. Then give enough information that the problem can be recreated by another person based on what you have learned about its potential solution. How many times have I posted something without even reading it to ensure it makes sense? Too much. There are way too many words floating around on the internet. I think we need to think green. How can we minimize the massive amount of data floating around by making our questions more concise? What I suggest when asking a technical question to get the help you need, is to not be in a rush. Once it is formed using the guidelines on Stack Overflow, re-read the problem and consider your reader’s perspective. Do they have what they need to solve the problem with you? Is anything unnecessary or unhelpful? &lt;/p&gt;
 
-&lt;p&gt;Take the time to make it better before posting. I haven&amp;#39;t done so well asking questions in my Google+ career so far. My one technical question was one that I quickly answered. It looks like I failed at step 1, asking the question from the right environment. This is also a unique question asking environment in DBC phase 0 because we are all working on the same challenges which makes less detailed questions more possible. I think the main takeaway for me here is beginning to process a good question, doing enough research, and rereading the question before posting it, ensuring that it is giving enough information to be helpful and not too much to be concise. This also bring up the point of considering your audience and what they already know. I hope some of that helps. Good luck!&lt;/p&gt;
+&lt;p&gt;Take the time to make it better before posting. I haven’t done so well asking questions in my Google+ career so far. My one technical question was one that I quickly answered. It looks like I failed at step 1, asking the question from the right environment. This is also a unique question asking environment in DBC phase 0 because we are all working on the same challenges which makes less detailed questions more possible. I think the main takeaway for me here is beginning to process a good question, doing enough research, and rereading the question before posting it, ensuring that it is giving enough information to be helpful and not too much to be concise. This also bring up the point of considering your audience and what they already know. I hope some of that helps. Good luck!&lt;/p&gt;
 </content>
  </entry>
  
@@ -98,21 +71,21 @@
    <link href="http://jtimmer89.github.io//blog/technical-blog-week8"/>
    <updated>2014-08-12T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week8</id>
-   <content type="html">&lt;h1&gt;A Little Context&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;a-little-context&quot;&gt;A Little Context&lt;/h1&gt;
 
-&lt;p&gt;I just read through the Ruby on Rails summary on wikipedia, and there is a lot more that I now understand than I did 3 months ago. Some things even seem pretty basic and elementary. However, there is still much that is extremely vague and cloudy to my understanding. I have always loved computers. I remember getting my first Mac at a garage sale for $20 when silver bodied powerbooks were capturing the world&amp;#39;s attention. I couldn’t quite afford such a computer. As a result of my deep interest, I found myself clicking on every button that was offered up at the top bar of the desktop and applications. As I grew in my understanding of the computer, I would think up things I wished my computer could do, and I would make it do it. For example, I wanted my computer to be more like a boom box, but the speakers would shut off when the lid was closed to prevent overheating. I found a way to make that happen, and it was exhilarating for me. Legitimately. However, I always shied away from the terminal. I didn’t get what it was doing, and it just seemed kind of boring. My curiosity finally led me to tackle the terminal and other more in depth aspects of my computer through the medium of Dev Bootcamp.&lt;/p&gt;
+&lt;p&gt;I just read through the Ruby on Rails summary on wikipedia, and there is a lot more that I now understand than I did 3 months ago. Some things even seem pretty basic and elementary. However, there is still much that is extremely vague and cloudy to my understanding. I have always loved computers. I remember getting my first Mac at a garage sale for $20 when silver bodied powerbooks were capturing the world’s attention. I couldn’t quite afford such a computer. As a result of my deep interest, I found myself clicking on every button that was offered up at the top bar of the desktop and applications. As I grew in my understanding of the computer, I would think up things I wished my computer could do, and I would make it do it. For example, I wanted my computer to be more like a boom box, but the speakers would shut off when the lid was closed to prevent overheating. I found a way to make that happen, and it was exhilarating for me. Legitimately. However, I always shied away from the terminal. I didn’t get what it was doing, and it just seemed kind of boring. My curiosity finally led me to tackle the terminal and other more in depth aspects of my computer through the medium of Dev Bootcamp.&lt;/p&gt;
 
 &lt;p&gt;I knew it would open doors I have been waiting outside of my whole life as I have always wanted to explore how exactly my computer is accomplishing its tasks. I knew that DBC dealt with things like Ruby on Rails, SQL, HTML, CSS, and Javascript among other technologies, but I had no idea what that meant truly, just notions. I have been playing with SQL, HTML, CSS, Ruby, and Javascript in the last 2 months before the in-person phase of DBC, but I am still not clear on what exactly Ruby on Rails is, one of the main focuses of bootcamp style programming educations today. I want to give an explanation from my new vantage point that would be beneficial to myself 3 months ago.&lt;/p&gt;
 
-&lt;h2&gt;The Programming Mindset&lt;/h2&gt;
+&lt;h2 id=&quot;the-programming-mindset&quot;&gt;The Programming Mindset&lt;/h2&gt;
 
 &lt;p&gt;In order to approach web technologies and what they do, I have found that I needed a change in my understanding of how to accomplish something. The more that I program, the more I apply this type of thinking to all areas of life. Programming includes considering all aspects of a problem/solution and what it will take to implement that solution in a step-by-step, block building philosophy. The best metaphor for this comes from “Learn to Program” by Chris Pine. He talks about the simple process of making a sandwich. Writing a program to accomplish this same task is insanely more complicated than you would ever really think. If you tell a computer to go to the cupboard. How does it know how to get there? How does it know where it is when you wake it up and tell it what to do? Does it have the skill of spreading peanut butter? How do you teach it how to do this? Computers are great for repeated tasks without much variation, but even making a sandwich has a massive amount of variation that is difficult to account for when programming. What if the peanut butter is almost empty? What if you need to open a new jar of jelly? All of these types of things are obvious to your average person, but they need to be considered by the computer programmer. This truly requires a new way of thinking that adapts for the most basic variations of a problem and considers all needed abilities.&lt;/p&gt;
 
-&lt;h2&gt;Ruby&lt;/h2&gt;
+&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
 
 &lt;p&gt;I have begun accomplishing simple tasks with the Ruby language. Ruby is similar to a foreign language. A foreign language allows you to navigate a foreign country successfully. A computer language allows you to navigate the computer and control it at its most basic levels. At some point, there were people that decided that combinations of true/false (open/close, 0s/1s) operations had certain meanings and bigger tasks than a light being on or off could be accomplished through the computer. Starting with Ruby before we get to its location on Rails, Ruby is a programming language with some beneficial qualities. It has gems which are a nice way of sharing features. If you created a program for spreading peanut butter, you could package that code into a spreading peanut butter gem and others could easily install it to use for spreading some other item, maybe orange marmalade. This creates an awesome communal quality for the Ruby language, people helping one another. It also removes the excess of code you might have to personally create for any given project.&lt;/p&gt;
 
-&lt;h2&gt;Rails&lt;/h2&gt;
+&lt;h2 id=&quot;rails&quot;&gt;Rails&lt;/h2&gt;
 
 &lt;p&gt;Rails is a web framework for creating a website. It combines HTML, CSS, and Javascript with Ruby to do great things. One of those great things is setting standards. The Ruby on Rails community sets standards for doing things and then creates gems to accomplish those tasks. Every website needs similar things. There is probably a good way of doing that. Most websites needs users for example. Rather than each programmers tasked with the massive undertaking of creating everything from the ground up, there are pre-made salads that can be quickly grabbed rather than growing each leaf of lettuce and it taking two months to prepare the salad. The point is that there are pieces of code that can be quickly snatched while still leaving tons of room for optimization and customization. One downfall then is that “magic” seems to be happening in a Ruby program where the programmer might not know exactly how it is functioning. There are things written deeply into Rails that guide how a database performs. Personally, I hope to do things that I understand without finding shortcuts. There must be a balance of doing something with agility and efficiency while actually knowing where each part of the your code is accomplishing each task.&lt;/p&gt;
 
@@ -125,23 +98,22 @@
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week8"/>
    <updated>2014-08-11T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week8</id>
-   <content type="html">&lt;h1&gt;Introduction to Conflict&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;introduction-to-conflict&quot;&gt;Introduction to Conflict&lt;/h1&gt;
 
 &lt;p&gt;In order to look at conflict and its causes to write this blog, I read through a couple different articles discussing conflict either generically or specifically in the workplace. I did not find anything that really jumped out at me. There were explanations of the causes, and most of it was pretty intuitive and made sense, but it didn’t seem much deeper than stating that conflict happens when one person is a jerk to another or two people both need the same thing and they aren’t willing to let the other person go first. Following, I want to consider conflict in a way that I have looked at it personally in the last couple years as it relates to expectations and styles of communication. Conflict is most poignant for differing expectations and different communication styles. Understanding another’s expectations and preferred style of communication can go a long way in allowing for productive conflict.&lt;/p&gt;
 
-&lt;h2&gt;Emotional conflict.&lt;/h2&gt;
+&lt;h2 id=&quot;emotional-conflict&quot;&gt;Emotional conflict.&lt;/h2&gt;
 
 &lt;p&gt;Recently, I was feeling frustrated with a friend regarding a cycle I had seen in our friendship over the last year. I would tell him something about when to meet or what I wanted to do, and I would consistently find him asking about these details a day or even a couple minutes later. I have made comments like, “Hey, the plan is still the same as when we talked about it last,” but he never seemed to pick up on the fact I was getting frustrated by what seemed to be that he was never truly listening to me. There is no epic kind of finale to this story where we got in a fight and punched each other, but it bothered me enough to think about it and maybe even act a little distant when it happened.&lt;/p&gt;
 
-&lt;h2&gt;Source of the conflict&lt;/h2&gt;
+&lt;h2 id=&quot;source-of-the-conflict&quot;&gt;Source of the conflict&lt;/h2&gt;
 
 &lt;p&gt;The source of this conflict is fairly self-evident, but I would add the factor of my expectations. I expected him to listen to me and remember what I said, not a bad expectation. I never really shared this expectation, but I figured it was self-evident. That is the problem though. Nothing is really self-evident in some sense. The values that we carry define our expectations of others in relationship. Our values can seem obvious, and we can even expect everybody to be the same as we are. However, this is not really true. Just reading through other DBC boots in phase 0 discuss their values, it was interesting to see the varying values and how those values create expectations for others to act a certain way.&lt;/p&gt;
 
-&lt;h2&gt;Handling conflict&lt;/h2&gt;
-
+&lt;h2 id=&quot;handling-conflict&quot;&gt;Handling conflict&lt;/h2&gt;
 &lt;p&gt;Going back to this initial conflict, I decided that just feeling frustrated wasn’t very beneficial to our relationship. Rather than being accusational about what he had done, I just brought it up and asked him why he would keep asking about something we had already figured out. He told me that he worried about if he had heard right. He shared how as a kid, his mom would always tell him to listen better and that he had a problem with hearing right. He did his best to hear what the person was sharing but would not always be confident that he heard right. Ironically, I can totally understand this as I am quite the space case myself. Hearing that he was aware of the problem and wanting to confirm details was a way of coping helped me chill out a bit. I understood where he was coming from, and it has quickly become a non issue.&lt;/p&gt;
 
-&lt;h2&gt;Conflict response&lt;/h2&gt;
+&lt;h2 id=&quot;conflict-response&quot;&gt;Conflict response&lt;/h2&gt;
 
 &lt;p&gt;This was more of an internal conflict than an external one, but understanding where my friend was coming from brought closer friendship rather than one of the many little things that can create dissonance in friendship. Luckily, we happen to have very similar communication styles. I don’t happen to have a manifesto for the 9 styles of communication, but what I do know is that I see people all around me saying one thing when it is interpreted very differently by another. I could have asked why he would bring up things we already discussed and had that interpreted as an attack. One important ingredient for different communication styles has been my belief that even if something is wrong from my vantage point, what they are feeling is valid, and I can validate their feeling without selling myself short. I can listen and even repeat what they are saying before I quickly run to share what I am feeling before even discussing what is being said by the other person.&lt;/p&gt;
 
@@ -154,7 +126,7 @@
    <link href="http://jtimmer89.github.io//blog/technical-blog-week7"/>
    <updated>2014-08-05T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week7</id>
-   <content type="html">&lt;h1&gt;What is it?&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h1&gt;
 
 &lt;p&gt;Many websites that have users or large amounts of data will use a database to store that information, access it, edit it, and anything else you might want to do with your data. I have learned pretty quickly in programming with Ruby that storing data can quickly become confusing and unmanageable. A programming language like Ruby is great for accomplishing actions, but it is not great for storing data though it is possible. I look forward to learning more about how to use databases effectively.&lt;/p&gt;
 
@@ -162,7 +134,7 @@
 
 &lt;p&gt;SQL injection is a very popular method of hacking data, modifying it, erasing it, and anything else you might want to do to/with somebody’s data. It is popular because of how simple it is. Without getting too technical, SQL injection happens through the front end of a website. You get on your favorite browser, go to your favorite website, and login. When you login, data is being accessed to check if you type in the right password and that your username exists. At this juncture, it is possible to send SQL commands to the database and then get access to users and their passwords or whatever might happen to be in the database. I picture a military code that allows an officer to send orders. Once being able to access the soldiers in the field, with the right code, you could send messages and commands to have them do whatever you wanted to the dismay of the true commander. At its least disruptive, you spend time cleaning your database and removing the threat for the future. At its worst, your users information is stolen and potentially used for fraud and other illegal activities.&lt;/p&gt;
 
-&lt;h2&gt;What can you do about it?&lt;/h2&gt;
+&lt;h2 id=&quot;what-can-you-do-about-it&quot;&gt;What can you do about it?&lt;/h2&gt;
 
 &lt;p&gt;There are companies that could help you with this problem. However, if you are working as a newb programmer, you probably don’t want to recommend help from elsewhere. You are now the expert so what do you recommend doing about this problem? I don’t know enough about the specifics yet to give you a step by step guide, but I can point you in the right direction on how to protect against SQL injection attacks. One key is sanitizing your data. When a username or password is entered into the web page, the data should be taken and examined. Phone numbers should only have numbers. You can make sure through sanitization that data is being entered properly. That way, if a hacker was trying to inject SQL commands, they would be modified before accessing the database.&lt;/p&gt;
 
@@ -175,7 +147,7 @@
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week7"/>
    <updated>2014-08-04T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week7</id>
-   <content type="html">&lt;h1&gt;Release 1&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;release-1&quot;&gt;Release 1&lt;/h1&gt;
 
 &lt;p&gt;When you think of the times in your life where you’ve been the happiest, the proudest, or the most satisfied, which of the following values comes to mind?&lt;/p&gt;
 
@@ -183,16 +155,18 @@
 
 &lt;p&gt;Close relationships. Community. Compassion. Creativity. Effectiveness. Helping other people. Honesty. Personal development. Serenity. Vulnerability.&lt;/p&gt;
 
-&lt;h2&gt;Release 2&lt;/h2&gt;
+&lt;h2 id=&quot;release-2&quot;&gt;Release 2&lt;/h2&gt;
 
 &lt;p&gt;Vulnerability/Honesty - I chose to write about vulnerability and honesty because they consistently rise to the top of the values that I have. It seems to me that part of the DBC philosophy is being able to observe what is coming out of you and the methods you might have for coping with stress, a challenging person, not understanding something, etc… The observation and awareness is the goal rather than trying to change or be different. It’s not that DBC doesn’t encourage change, but there is a large focus on the observation of what is naturally coming out of you rather than shame for being the way you are. I resonate pretty deeply with that, and I think that the natural overflow of observation is commonly vulnerability and honesty. There are moments when someone shares something that strikes a cord with all listening. It makes people uncomfortable and excited. Trying to be vulnerable doesn’t necessarily create it. It is something special, almost like a gift for the person sharing and the people listening. I value it because I lived so much of my life hidden, afraid to be exposed, motivated by fear. As I have come out of living a life to impress others and to be accepted, I have found vulnerability to be a place of freedom and delight.&lt;/p&gt;
 
-&lt;h2&gt;Release 3&lt;/h2&gt;
+&lt;h2 id=&quot;release-3&quot;&gt;Release 3&lt;/h2&gt;
 
 &lt;p&gt;In general, I try to live up to these values:&lt;/p&gt;
 
-&lt;p&gt;Disagree 1 ----- 2 ----- 3 ----- 4 ----- 5 Agree&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  Close relationships - 5. 
+&lt;p&gt;Disagree 1 —– 2 —– 3 —– 4 —– 5 Agree&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  Close relationships - 5. 
   Community - 3 
   Compassion - 3 
   Creativity - 3 
@@ -202,16 +176,17 @@
   Personal development - 4
   Serenity - 3
   Vulnerability - 5
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Release 4&lt;/h2&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;release-4&quot;&gt;Release 4&lt;/h2&gt;
 
 &lt;p&gt;The last thing that someone asked advice on was what to do in Michigan.&lt;/p&gt;
 
-&lt;h2&gt;Release 5&lt;/h2&gt;
+&lt;h2 id=&quot;release-5&quot;&gt;Release 5&lt;/h2&gt;
 
 &lt;p&gt;I enjoy reflecting on my values, seeing how they have changed in even one year. I saw a cartoon that showed someone who filled their apartment with small balls like an old school McDonalds playground. When a visitor came to their place confused, the person responded by basically saying that the meaning of adulthood is getting to define what it means to be an adult.&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/cultural-blogs/grownups.png&quot; alt=&quot;Defining adulthood.&quot; width=&quot;100%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/cultural-blogs/grownups.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/cultural-blogs/grownups.png&quot; alt=&quot;Defining adulthood.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Defining adulthood.&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;I found it funny and relevant because of shifting cultural values. It is kind of a time of pick your values and don’t judge anybody else. Looking at the early 1900s, it has been called a time of the cult of morality. Doing the right thing was king. Sometime with the arrival of Dale Carnegie’s “How to Win Friends and Influence People” came the cult of personality. What this means is that the adults of one generation put the prize value on doing the right thing, and the next generation found this rightly stifling and contradictory as to who might define the right thing. With the cult of personality, charisma is king. However, it could be argued that there is a generation tired with fakes, tired of business people who are charming on the job and ass holes to their family. Post-modernity is one beast of an era that is trying to not be defined or put in a box. Therefore, I find it refreshing to consider my own values and put some boxes around the things that really make me tick for the sake of understanding myself and choosing a path that makes sense to who I am. In considering these values that stood out to me, I think that vulnerability and honesty can be key for mediating stereotype threat. Honesty can be best one on one, but in a culture of honesty, I see that being a good defense against the potential affects of stereotype threat.&lt;/p&gt;
@@ -223,32 +198,32 @@
    <link href="http://jtimmer89.github.io//blog/technical-blog-week6"/>
    <updated>2014-07-29T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week6</id>
-   <content type="html">&lt;h1&gt;Blocks&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;blocks&quot;&gt;Blocks&lt;/h1&gt;
 
 &lt;p&gt;Blocks are, wait for it, blocks of code surrounded by curly braces or encapsulated in the do..end keywords. Let’s take a closer look at this. Many methods in Ruby iterate through an array or hash. As you iterate, you can do a block of code on each value. You can also use a block written outside of a method inside of the method by using the yield keyword. Let’s look at some examples to better understand what these words mean.&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/blocks.png&quot; alt=&quot;Example block&quot; width=&quot;60%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/blocks.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/blocks.png&quot; alt=&quot;Example block&quot; width=&quot;60%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Example block&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;Line 1 creates an array with 5 numbers. Line 3 uses a block to multiply each value in the array by 2. Lines 5 - 7 do the same thing but with the different do..end syntax. Lines 9 to 13 show the use use of the yield keyword. The double_num method is ran, and at the yield keyword, the block of code after the call to the method on line 13 is run multiplying the number 3 by 2 and returning 6.&lt;/p&gt;
 
-&lt;h2&gt;Procs&lt;/h2&gt;
+&lt;h2 id=&quot;procs&quot;&gt;Procs&lt;/h2&gt;
 
 &lt;p&gt;I found that the best way to describe a proc, given our look into blocks, is a saved block. Blocks are not objects in Ruby. As such, they cannot be stored in a variable and used again. You would have to write a block each time you wanted to use it. Procs solve this problem. Let’s take a look at some code. &lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/procs.png&quot; alt=&quot;Example proc&quot; width=&quot;60%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/procs.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/procs.png&quot; alt=&quot;Example proc&quot; width=&quot;60%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Example proc&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;As before, we are taking the array with 5 values on line 1. Line 3 is creating a proc called double_nums that doubles a given value. Here, we are using the Proc.new syntax to create the reusable proc. Line 5 is an example that uses the proc through the &amp;amp; symbol which calls the proc.&lt;/p&gt;
 
-&lt;h2&gt;Lambdas&lt;/h2&gt;
+&lt;h2 id=&quot;lambdas&quot;&gt;Lambdas&lt;/h2&gt;
 
 &lt;p&gt;Lambdas take a step from the old proc playbook. They are pretty similar with some syntax differences. They are also an object, and they offer the ability to be used repeatedly. The main difference relates to how the proc or lambda interacts within a method. When a lambda returns, it passes control back to the calling method. A proc does not. It ends once it is called without returning to the method. That might be confusing. Some code will help illustrate the syntax differences and the difference between procs and lambdas.&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/lambdas.png&quot; alt=&quot;Example lambda vs. proc&quot; width=&quot;60%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/lambdas.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/lambdas.png&quot; alt=&quot;Example lambda vs. proc&quot; width=&quot;60%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Example lambda vs. proc&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;p&gt;Lines 3 - 6 go with the theme we have been running with so far. The double-nums-lambda method on line 3 creates a lambda using the keyword lambda and the block of code. On line 5, it is passed in to the array, effectively doubling each number in array. Lines 10 - 24 illustrate one of the key ways procs and lambdas are different. The method say-hello-proc returns “Hi, I’m a proc” because it ends after the proc is called. The method say-hello-lambda returns “Hi, I’m a lambda&amp;quot; because it returns to that final statement after the lambda with the proc greeting is called.&lt;/p&gt;
+&lt;p&gt;Lines 3 - 6 go with the theme we have been running with so far. The double-nums-lambda method on line 3 creates a lambda using the keyword lambda and the block of code. On line 5, it is passed in to the array, effectively doubling each number in array. Lines 10 - 24 illustrate one of the key ways procs and lambdas are different. The method say-hello-proc returns “Hi, I’m a proc” because it ends after the proc is called. The method say-hello-lambda returns “Hi, I’m a lambda” because it returns to that final statement after the lambda with the proc greeting is called.&lt;/p&gt;
 </content>
  </entry>
  
@@ -257,7 +232,7 @@
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week6"/>
    <updated>2014-07-28T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week6</id>
-   <content type="html">&lt;h1&gt;Confirming a Negative&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;confirming-a-negative&quot;&gt;Confirming a Negative&lt;/h1&gt;
 
 &lt;p&gt;The idea of “Stereotype Threat” based on the research of Claude Steele is that when you are at risk of confirming a negative stereotype about a group you are a part of, your cognitive functioning is diverted to this stress and your actual performance on the given task suffers. I don’t know that this seems counterintuitive, but as I looked at the research to support this claim, I was very interested to consider it more deeply. A very challenging math test was given to equally qualified men and women that would stir up anxiety and challenge them. The women, though they were equally knowledgable in the problems, performed poorly compared to the men. Given this same situation, when the women were told this had no effect on the divide between men and women in math scores, women did equally well on the test. The idea is that if you give a math test that is challenging, it creates anxiety for both men and women, but for women who are stereotyped and told they don’t do as good on tests, they are at risk of confirming this negative stereotype. I explain that study because it reveals that the threat of confirming a stereotype is what leads to poor behavior. Tests are not always revealing reality. When you can remove the threat, you can begin to deal with the stereotype and maybe even destroy it in the long term.&lt;/p&gt;
 
@@ -274,31 +249,34 @@
    <link href="http://jtimmer89.github.io//blog/technical-blog-week5"/>
    <updated>2014-07-22T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week5</id>
-   <content type="html">&lt;h1&gt;When to Create a Class&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;when-to-create-a-class&quot;&gt;When to Create a Class&lt;/h1&gt;
 
 &lt;p&gt;I am in the very shallow end of the programming world, but I am really loving it. One of the great things about being in the shallow end is that everything is new and exciting. One of the bad things about being in the shallow end is that most everything is new and unknown. I remember reading that Ruby is object orientated and seeing that phrase everywhere like it was supposed to mean something. Finally, that phrase is beginning to have meaning to me, but this is the experience I have had trying to learn programming. You hear something and it has emphasis like it is important, but it can seem so meaningless. Programming is entering another world, another way of thinking, mostly foreign to my other experiences. As I read through books to help me in my progress, I have to be careful and tie what I am reading to what I am actually doing, as to not abstract too far from the actual process. With that said, I have been reading through the book Practical Object-Oriented Design in Ruby (POODR) and what I am seeing is the importance of design tied to the reality that when designing a program, you have the least knowledge of the end goal. Software is all about flexibility, change, the addition of new features, etc… How do you create something with the ability to change when you don’t know what those changes will look like?&lt;/p&gt;
 
 &lt;p&gt;In the context of Ruby, organization comes in the form of classes and methods. A class contains a certain amount of information and behaviors that help give features or usability to any object created in that class. Imagine a bike or a car class. There are many types of cars, but there are features and characteristics that describe all cars. They all move, have an engine, have doors, etc… In creating a program, you are creating a whole world from bits of information. The organization of that information can quickly become out of hand in the effort to create a functioning program that makes the world better. As I have been reading through classes, I want to take a moment and describe what I have learned about when to create a class and how much information to give it. Before I jump into this, I think it is important to remember that real world programs can have thousands of classes. I am only creating single classes just to understand them better. I can only give limited perspective based on what I have seen, but hopefully I am working towards a good foundation with some quirks to work out along the way.&lt;/p&gt;
 
 &lt;p&gt;The term used in POODR is single responsibility. Single responsibility means that each class is used in the goal of a single, simple responsibility. Don’t try to do too much so that you can easily reuse classes in ways that could surprise you down the road. Thinks of legos. Imagine a lego piece that only fits with the creation of one castle. It is an awesome, complicated piece, but if it doesn’t fit with other blocks, you can’t create something awesome later. The whole fun of legos is the infinite possibilities of things you can create. Try to think of creating code like building with legos. To look at this a little closer, it might help to have an example with a little code. Imagine trying to create a program for chef’s. Take one of the most important parts of cooking: boiling water. Your user wants to know how long it will take to boil water for each restaurant he has so he can perfect the timing at each location. Water boils slower at higher elevation because it has a lower boiling point temperature. I don’t know the specifics, but let’s use our imagination.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;elevation = x
+
+&lt;p&gt;```
+elevation = x
 rate = 10,000 / x
 amount of water = z
-time = z * (15 / rate)
+time = z * (15 / rate)&lt;/p&gt;
 
-elevation = 10,000
+&lt;p&gt;elevation = 10,000
 rate = 10,000 / 10,000
 amount of water = 2
-time = 2 * (15 / 1) = 30 minutes to boil 2 liters of water
+time = 2 * (15 / 1) = 30 minutes to boil 2 liters of water&lt;/p&gt;
 
-elevation = 1,000
+&lt;p&gt;elevation = 1,000
 rate = 10,000 / 1,000
 amount of water = 2
 time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+```&lt;/p&gt;
+
 &lt;p&gt;This obviously isn’t great, but it gets the principle across at least. Let’s look at the class that accomplishes this goal.&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/boilingwaterclass.png&quot; alt=&quot;Our new boiling water class.&quot; width=&quot;80%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/boilingwaterclass.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/boilingwaterclass.png&quot; alt=&quot;Our new boiling water class.&quot; width=&quot;80%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Our new boiling water class.&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;In the scope of creating software to help a chef who is anal about the prep process and how when exactly to start cutting the celery or something, there would be a lot more to add. However, we have one thing that we need to do which is get the time to boil an amount of water. Now, we have a class that accomplishes just that. It isn’t trying to tell him when to cut the celery. This is the point of single responsibility, and the use of this principle will help you create software that you can enjoy developing and adding more features as it changes in the same way you maybe used to enjoy building with legos.&lt;/p&gt;
@@ -310,7 +288,7 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week5"/>
    <updated>2014-07-21T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week5</id>
-   <content type="html">&lt;h1&gt;The Pairing Process&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;the-pairing-process&quot;&gt;The Pairing Process&lt;/h1&gt;
 
 &lt;p&gt;Pair programming is a big part of Dev Bootcamp. Pair programming is when you work with a partner to solve a technical problem. Each person assumes a certain role: navigator or driver. The navigator leads the driver in being helpful with syntax and googling any questions while the driver is actually typing the code and being in control of the keyboard/mouse. Peer pairing has changed for me throughout Phase 0, the first 9 weeks where we work primarily remotely on challenges to ensure that we still want to do DBC. Initially, I didn’t have much to offer, and I had to spend so much time researching for each problem that it was hard to be helpful. Peer pairing felt more like a study session where I was trying to communicate what I was doing the whole time, but that just made it harder to research the problem we wanted to solve. In one guided pairing session, I felt so confused by the content that I just barely made it through the session.&lt;/p&gt;
 
@@ -318,7 +296,7 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
 
 &lt;p&gt;When you know more than the other person, hopefully it can be good to reinforce your own understanding of the problem. I have not really had this happen to me. I might know more about one thing, but I am pretty much a newbie at this juncture. If you are equal to the other person, I think that can be one of the most helpful pairing sessions. I had a session that felt pretty equal, and it was by far the most helpful of the sessions I have done. If somebody knows the answer, you might not be as quick to google something as you can just rely on them. However, when you are working with an equal, you have nothing to loose and you can just jump into the challenge trying all sorts of ideas. Working with somebody of closer knowledge to yourself can really help you breakthrough and grasp difficult concepts because you both have to work as hard and can get excited as you explore together. In the end, I would say peer pairing gets better with time, and there is probably each one of these three types of sessions that would be most helpful at certain junctures of learning. The best thing to do is pair with as many people as possible to pick up many styles and ideas. Don’t find yourself pairing with the same 3 people for example for all of Phase 0.&lt;/p&gt;
 
-&lt;h2&gt;Feedbackinator&lt;/h2&gt;
+&lt;h2 id=&quot;feedbackinator&quot;&gt;Feedbackinator&lt;/h2&gt;
 
 &lt;p&gt;Integrated with peer pairing is giving honest feedback to one another anonymously. DBC has a great feedback program that allows you to select your partner and give helpful feedback. Then that feedback is rated for kindness, actionability, and specificity or something like that. If it is kind, then it gets back to the person. After reading through and rating people’s feedback each week, it seems that the group is hesitant to to give feedback that would be considered negative. I think that part of the reason for that is that we are all so new to this and without really having relationships with these people, it is hard to give feedback on how they can do better next time. Without knowing what better could even look like, it’s not easy to give feedback on that. I think in unit 3, we will be able to give each other better feedback.&lt;/p&gt;
 
@@ -333,66 +311,86 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/technical-blog-week4"/>
    <updated>2014-07-15T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week4</id>
-   <content type="html">&lt;h1&gt;Ways to Loop in Ruby&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;ways-to-loop-in-ruby&quot;&gt;Ways to Loop in Ruby&lt;/h1&gt;
 
 &lt;p&gt;Compared to our work with javascript last week, Ruby offers numerous ways of looping for different circumstances. The different loop statements include the following: times, each, for, while, until, do/break if, and upto. I’m sure I missed some ways as there are many ways to loop or iterate in Ruby. Let’s take a look at the different ways I mentioned.&lt;/p&gt;
 
-&lt;h4&gt;Times&lt;/h4&gt;
+&lt;h4 id=&quot;times&quot;&gt;Times&lt;/h4&gt;
 
 &lt;p&gt;Times does a simple looping any number of times.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  10.times
+
+&lt;p&gt;&lt;code&gt;
+  10.times
   puts “Joe Timmer is real neat”
   end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Each&lt;/h4&gt;
+&lt;/code&gt;
+####Each&lt;/p&gt;
 
 &lt;p&gt;Times does a simple looping any number of times.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  cats = [“Marty”, “Harry”, “Samantha”]
+
+&lt;p&gt;&lt;code&gt;
+  cats = [“Marty”, “Harry”, “Samantha”]
   cats.each { |names| puts names + “-cat” }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;For&lt;/h4&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;for&quot;&gt;For&lt;/h4&gt;
 
 &lt;p&gt;The for loop is also used in javascript but it has a different syntax in Ruby.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  for i in 1..10
+
+&lt;p&gt;&lt;code&gt;
+  for i in 1..10
     puts “Joe Timmer is real neat”
   end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;While&lt;/h4&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;while&quot;&gt;While&lt;/h4&gt;
 
 &lt;p&gt;The while loop does a block of code while a certain condition is true.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  i = 0
+
+&lt;p&gt;&lt;code&gt;
+  i = 0
   while i &amp;lt; 10
     puts “Joe Timmer is real neat”
     i += 1
   end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Until&lt;/h4&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;until&quot;&gt;Until&lt;/h4&gt;
 
 &lt;p&gt;The until loop starts to make you think. It does a block of code until something is true, like a backwards while loop.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  i = 1
+
+&lt;p&gt;&lt;code&gt;
+  i = 1
   until i &amp;gt; 10
     puts “Joe Timmer is real neat”
     i += 1
   end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Do/Break&lt;/h4&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;dobreak&quot;&gt;Do/Break&lt;/h4&gt;
 
 &lt;p&gt;The do/break if loop allows you to do something and stop doing it if a condition is true.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  i = 1
+
+&lt;p&gt;&lt;code&gt;
+  i = 1
   loop do
     puts “Joe Timmer is real neat”
     i += 1
   break if i &amp;gt; 10
   end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Upto&lt;/h4&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;upto&quot;&gt;Upto&lt;/h4&gt;
 
 &lt;p&gt;The final loop that I want to look at is a simple one. Upto. It basically does a block of code from one number up to another number times.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  1.upto(10) do
+
+&lt;p&gt;&lt;code&gt;
+  1.upto(10) do
     puts “Joe Timmer is real neat”
   end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;How to decide which loop to use&lt;/h2&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-decide-which-loop-to-use&quot;&gt;How to decide which loop to use&lt;/h2&gt;
 
 &lt;p&gt;There are many ways to use these different loops other than the basic syntax that I gave in the examples, but how do you decide which to use given the challenge you are working on? I had a hard time finding many resources on which loop is best so this will basically be from my own noggin. I look for readability. What makes sense if you were writing the code as an English sentence? This can help you decide which keyword to use. Also, how many lines can you do the code in? The less, the better. Finally, how is the computer processing the code? You want your code to be readable, concise, and fast. I would consider these three factors when looking at which keyword to use. Does is sound good? Does another loop allow for less code? The third one is a bit more complex and will probably take time to really consider after learning how each keyword works more fully.&lt;/p&gt;
 </content>
@@ -403,17 +401,17 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week4"/>
    <updated>2014-07-14T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week4</id>
-   <content type="html">&lt;h1&gt;The Problem in Tech Culture&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;the-problem-in-tech-culture&quot;&gt;The Problem in Tech Culture&lt;/h1&gt;
 
-&lt;p&gt;I found the article &amp;quot;Technology&amp;#39;s Man Problem&amp;quot; by &lt;em&gt;Claire Cain Miller&lt;/em&gt; to be the opening of a rabbit hole for my own research pointing to the issues that women face in the culture of the tech world. I want to first summarize this article before diving into some of my own thoughts on the topic. The article focused on the experience of Elissa Shevinsky who watching a TechCrunch hackathon while David Boulton and Jethro Batts presented their app called Titstare which was made to take picture of your face while you were staring at a some unsuspecting breasts. Elissa, upset with the app and its generous reception, went to the internet to blog about the problem. The next day, she found a tweet from her business partner supporting the app. She later quit from the company they were working on together. Elissa got a slew of threats and negative messages for her blog post.&lt;/p&gt;
+&lt;p&gt;I found the article “Technology’s Man Problem” by &lt;em&gt;Claire Cain Miller&lt;/em&gt; to be the opening of a rabbit hole for my own research pointing to the issues that women face in the culture of the tech world. I want to first summarize this article before diving into some of my own thoughts on the topic. The article focused on the experience of Elissa Shevinsky who watching a TechCrunch hackathon while David Boulton and Jethro Batts presented their app called Titstare which was made to take picture of your face while you were staring at a some unsuspecting breasts. Elissa, upset with the app and its generous reception, went to the internet to blog about the problem. The next day, she found a tweet from her business partner supporting the app. She later quit from the company they were working on together. Elissa got a slew of threats and negative messages for her blog post.&lt;/p&gt;
 
 &lt;p&gt;How is this type of regressive culture so standard in the tech world that is arguably the most progressive field there is? I have spent the last couple years working in the food industry with my sister. We are part of a small family business that exists in a larger ecosystem that is dominated by men. I have watched her become a resource and an exceptional employee that our co-workers are beginning to respect, but she has had to fight a much harder battle than my own to earn respect and have a place at the table. Even now, I doubt that she feels part of the gang or that she doesn’t have to fight for every idea she wants to see happen. This topic is obviously one that deserves another 100 pages to really consider, but I do want to throw out some ideas I have that might push back against this huge cultural issue.&lt;/p&gt;
 
-&lt;h2&gt;Where to Begin?&lt;/h2&gt;
+&lt;h2 id=&quot;where-to-begin&quot;&gt;Where to Begin?&lt;/h2&gt;
 
 &lt;p&gt;I remember reading a book as a philosophy student that talked about minimizing issues so they could really be dealt with. The idea is that if racism is not a big issue, you have 80% of people who are honest about their racism. If you put a lot of hype around the issue of racism and how bad it is, you get about 10% of people who are honest about their racism. Point being, there is a very fine line anybody walks pursuing change where you are trying to both create the space for honesty but also move forward and see change happen. So, how do you both minimize the issue of women in the tech world and help people take it more seriously to actually see the wackiness of their ways?&lt;/p&gt;
 
-&lt;p&gt;I don’t really know, but the movie &lt;em&gt;Her&lt;/em&gt; comes to mind. I love how this movie legitimately made people consider the future of technology and even the possibility of having a relationship with a computer. I enjoyed the conversations I had after the movie, especially the use of Facebook and the relationships people have through Facebook. I personally have a problem to some extent with social media and the presentation of your life through the moments that you choose to share with others. Friendship is built through sharing the moments you would never share on social media. That’s another topic, but the idea here is to begin creating legitimate films that consider the loneliness of being marginalized in an industry and the power we have to change that. So...get on that Hollywood.&lt;/p&gt;
+&lt;p&gt;I don’t really know, but the movie &lt;em&gt;Her&lt;/em&gt; comes to mind. I love how this movie legitimately made people consider the future of technology and even the possibility of having a relationship with a computer. I enjoyed the conversations I had after the movie, especially the use of Facebook and the relationships people have through Facebook. I personally have a problem to some extent with social media and the presentation of your life through the moments that you choose to share with others. Friendship is built through sharing the moments you would never share on social media. That’s another topic, but the idea here is to begin creating legitimate films that consider the loneliness of being marginalized in an industry and the power we have to change that. So…get on that Hollywood.&lt;/p&gt;
 </content>
  </entry>
  
@@ -422,13 +420,13 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/technical-blog-week3"/>
    <updated>2014-07-08T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week3</id>
-   <content type="html">&lt;h1&gt;Javascript + Web Development = Popular&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;javascript--web-development--popular&quot;&gt;Javascript + Web Development = Popular&lt;/h1&gt;
 
 &lt;p&gt;It seems that Javascript is popular in web development for many reasons. There seems to be a disjunct history that explains why it is popular, and I will do my best to hit some of those key points. Netscape had a big role in making Javascript popular. Javascript was used in Netscape Navigator which was the big dog of browsers in its day. It ran in the browser, and this was at a time when browsers were growing in popularity. I believe that it was used in Google Maps which was becoming a huge service around 2005. Javascript gives a developer some serious dynamic content creating ability through the browser. Thus, you have a language that become popular with the rise of the web and the increased viewing of content through a browser.&lt;/p&gt;
 
 &lt;p&gt;That’s great, but haven’t there been other languages that are part of the browser? Definitely. So why did Javascript end up being the language that was most widely adopted? This could be related to both it simplicity and sufficient depth to do more complex tasks. The web was just becoming popular, and you could get a decent job with pretty basic programming skills. Javascript was a good solution because it allowed very basic html programmers to start adding dynamic features with javascript while allowing room for more advanced programmers to tackle more aggressive projects.&lt;/p&gt;
 
-&lt;h2&gt;Strengths of Javascript&lt;/h2&gt;
+&lt;h2 id=&quot;strengths-of-javascript&quot;&gt;Strengths of Javascript&lt;/h2&gt;
 
 &lt;p&gt;After reading some blogs online and the already released blogs from DBC members, there seems to be some fairly agreed upon strengths and weaknesses of Javascript. The biggest strength is that it is run server side. It is actually run in the browser of the user. This could be compared to outsourcing your homework. If you send your homework to India, that is great. It gets done by some math wizard, and then you don’t have to do it. Well, that’s not really great, but you get the point. The problem with this? If your homework is due today, then it will not get back before you need it. Now the web is much faster than having to send your homework to India, but we expect the web to move fast. If you have to send code back to the server to run, you will have some speed issues versus just running it locally or doing your homework yourself to continue the metaphor.&lt;/p&gt;
 
@@ -436,7 +434,7 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
 
 &lt;p&gt;The final strength of Javascript that stood out to me is what I would call versatility. It is loaded through the browser which means you don’t need to download something else for it to run. That is really nice. I hate having to update flash or something all the time to stay up to date. Javascript can also be inserted into most web pages. It doesn’t have to explicitly be a js page or file. Ease of use has a huge impact on what I choose to spend time on. With a versatile language, that would hopefully draw lots of developers, and the more developers using a language, the more utilities and innovation that will happen.&lt;/p&gt;
 
-&lt;h2&gt;Limitations of Javascript&lt;/h2&gt;
+&lt;h2 id=&quot;limitations-of-javascript&quot;&gt;Limitations of Javascript&lt;/h2&gt;
 
 &lt;p&gt;One of the main limitations of Javascript that stood out to me was the inability to access a database or read and write to a server file. There seems to be ways around this, but it’s not ideal to have to implement outside solutions for accessing a database. When I think of my most important websites, they all have users and users needs databases. This makes Javascript less than ideal in ways I don’t quite understand yet.&lt;/p&gt;
 
@@ -451,21 +449,21 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week3"/>
    <updated>2014-07-07T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week3</id>
-   <content type="html">&lt;h1&gt;Abstract Random Thinking Style&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;abstract-random-thinking-style&quot;&gt;Abstract Random Thinking Style&lt;/h1&gt;
 
 &lt;p&gt;I scored most highly as an Abstract Random thinker but also highly as a Concrete Random thinker. From my research, there were parts that I resonated most with. I like a noncompetitive atmosphere. Paradoxically, I am super competitive with myself. I need personal attention and emotional support to be successful in my learning. I like to try things, see when they go wrong, and then how to fix it. I like brainstorming and open ended conversations without specific goals other than speaking thoughts out loud.&lt;/p&gt;
 
 &lt;p&gt;This relates to my VARK learning style (aural). This was actually more illuminating than the thinking style stuff. I love the app Voxer. It is like a walkie talkie that you can use to send 10 minute long messages to friends. There are a couple friends that I have an ongoing dialogue with. I love saying things out loud. I actually say things I have not thought before when I  have the chance to dialogue about a subject. I am actually learning as I talk or reinforcing a concept through talking about it. When I first got engaged, I remember talking for 2 hours about Socrates (Philosophy major) to my fiancé. I was so excited. Looking back, I realized that this was solidifying what I was studying and it even gave me the chance to make some new conclusions about what Socrates was saying.&lt;/p&gt;
 
-&lt;p&gt;Going back to my learning style, I struggle with only one way of doing things. I like different ways of doing things even if they aren&amp;#39;t as good. I love exploring the “alternative” path, and I can’t handle when somebody defends a way of doing something by “we have always done it this way.” I contrastingly love rituals, habits, and routines, but I crave the improv that comes out of structure. I am extremely sensitive to my own feelings and the feelings of others. I like to focus on many things if I am working on a project but give my full attention to one thing at a time. I am driven to say or do things in a way others have not. I fear too much structure but crave enough structure for improvisation.&lt;/p&gt;
+&lt;p&gt;Going back to my learning style, I struggle with only one way of doing things. I like different ways of doing things even if they aren’t as good. I love exploring the “alternative” path, and I can’t handle when somebody defends a way of doing something by “we have always done it this way.” I contrastingly love rituals, habits, and routines, but I crave the improv that comes out of structure. I am extremely sensitive to my own feelings and the feelings of others. I like to focus on many things if I am working on a project but give my full attention to one thing at a time. I am driven to say or do things in a way others have not. I fear too much structure but crave enough structure for improvisation.&lt;/p&gt;
 
-&lt;h2&gt;DBC as it relates to Abstract Random&lt;/h2&gt;
+&lt;h2 id=&quot;dbc-as-it-relates-to-abstract-random&quot;&gt;DBC as it relates to Abstract Random&lt;/h2&gt;
 
 &lt;p&gt;These are the details that stood out to me most as I read through the thinking style resources. So how do they relate to my time at DBC. Some of them will have a bigger impact on when we are all physically together. I think that my thinking style makes Phase 0 a good learning process. It allows for enough structure (pairing, challenges, etc…) that I feel comfortable, but I can choose which resources I use for studying the concept. There are a lot of paths to get each challenge accomplished.&lt;/p&gt;
 
-&lt;p&gt;My biggest initial problem was spending large amounts of time on things that were distracting me from the challenges. Not only are rabbit holes distracting, but they are emotionally taxing when you spend a long time without checking much of the to-do list. The reflection on time in week 2 was really helpful for me. I have tried the pomodoro technique for work but didn’t stick with it. I started doing this technique for the challenges, and it has gone a long way to help motivate me by getting challenges done, but also having time to research things that interest me while being aware of how many “tomatoes&amp;quot; I am allowing for anything. This all relates to my thinking style because I didn’t actually have enough structure to be successful initially. Without the needed structure, I just fall apart, lack direction, and feel overwhelmed by even a small task. I am a person who loves abstract randomness, but the structure is what always allows for beneficial abstract randomness in my case.&lt;/p&gt;
+&lt;p&gt;My biggest initial problem was spending large amounts of time on things that were distracting me from the challenges. Not only are rabbit holes distracting, but they are emotionally taxing when you spend a long time without checking much of the to-do list. The reflection on time in week 2 was really helpful for me. I have tried the pomodoro technique for work but didn’t stick with it. I started doing this technique for the challenges, and it has gone a long way to help motivate me by getting challenges done, but also having time to research things that interest me while being aware of how many “tomatoes” I am allowing for anything. This all relates to my thinking style because I didn’t actually have enough structure to be successful initially. Without the needed structure, I just fall apart, lack direction, and feel overwhelmed by even a small task. I am a person who loves abstract randomness, but the structure is what always allows for beneficial abstract randomness in my case.&lt;/p&gt;
 
-&lt;h2&gt;Growth vs. Fixed Mindset&lt;/h2&gt;
+&lt;h2 id=&quot;growth-vs-fixed-mindset&quot;&gt;Growth vs. Fixed Mindset&lt;/h2&gt;
 
 &lt;p&gt;I immediately wanted to talk to my co-workers about the growth and fixed mindset concepts after reading about it. I think it revealed a lie that I was believing that intelligence is static. I think that because some intelligence is inborn. If we are all on some trek to the top of the mountain, some people might start only a mile away while others start 40 miles away. However, given a lifetime, this starting point isn’t really that important in some ways&amp;gt; it is more important that you are headed somewhere. That you are on the trek. A lot of geniuses might have never trekked and just lived off of their natural intelligence. I believe that.&lt;/p&gt;
 
@@ -478,38 +476,47 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/technical-blog-week2"/>
    <updated>2014-07-01T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week2</id>
-   <content type="html">&lt;h1&gt;CSS spacing is easier than it looks&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;css-spacing-is-easier-than-it-looks&quot;&gt;CSS spacing is easier than it looks&lt;/h1&gt;
 
-&lt;h2&gt;Margin&lt;/h2&gt;
+&lt;h2 id=&quot;margin&quot;&gt;Margin&lt;/h2&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/cssbox.gif&quot; alt=&quot;CSS guide for spacing&quot; width=&quot;60%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/cssbox.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/cssbox.gif&quot; alt=&quot;CSS guide for spacing&quot; width=&quot;60%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;CSS guide for spacing&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;Starting from the outermost of an html element, you have a css feature that will affect the positioning of other elements. This all makes sense when you realize that all elements in html are blocks. I have read that before but never understood it. It seemed so simple, but sometimes it takes a couple times before it clicks with wen development ideas. When you give some text header tags in html, it turns the white space around the text into a block. You can position this block and in turn the text with positioning as well as margin, borders, and padding. If you think of the outermost edge of the block as the border, you can add space between an element’s border and another element using margin. Let me illustrate.&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/websitenomargin.png&quot; alt=&quot;No margin for header&quot; width=&quot;100%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/websitenomargin.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/websitenomargin.png&quot; alt=&quot;No margin for header&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;No margin for header&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/websitewithmargin.png&quot; alt=&quot;Then I added 10px of margin, and you can see the space around the left and top edge&quot; width=&quot;100%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/websitewithmargin.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/websitewithmargin.png&quot; alt=&quot;Then I added 10px of margin, and you can see the space around the left and top edge&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Then I added 10px of margin, and you can see the space around the left and top edge&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;h2&gt;Border&lt;/h2&gt;
+&lt;h2 id=&quot;border&quot;&gt;Border&lt;/h2&gt;
 
 &lt;p&gt;The border principle is pretty straightforward. As we learned, each html element is a box, and we can add and play with the border around that box. Also, You can play with the size, color, and add the line feature (solid, dotted, dashed, double, groove, ridge, inset, outset). The following code would create a 10 pixel solid black line around the paragraphs in the html document:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  p { border: 10px solid black; }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Padding&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;
+  p { border: 10px solid black; }
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;padding&quot;&gt;Padding&lt;/h2&gt;
 
 &lt;p&gt;If we refer back up to the first picture, we can see that padding is the space around our content. If we added a large amount of padding, then added a border, that actual border box would ended up being far from the text or image. Padding and margin can be optimized with 4 characteristics: top, bottom, left, and right. There are two ways that you can adjust padding and margins. Let’s look at the different syntax for padding.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  padding-top: #px;
+
+&lt;p&gt;&lt;code&gt;
+  padding-top: #px;
   padding-right: #px;
   padding-bottom: #px;
   padding-left: #px;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/p&gt;
+
 &lt;p&gt;versus&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  padding: #px #px #px #px;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Well, that about covers it. Thanks for reading!&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;
+  padding: #px #px #px #px;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;well-that-about-covers-it-thanks-for-reading&quot;&gt;Well, that about covers it. Thanks for reading!&lt;/h3&gt;
 </content>
  </entry>
  
@@ -518,32 +525,32 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/technical-blog-week1"/>
    <updated>2014-06-29T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/technical-blog-week1</id>
-   <content type="html">&lt;h1&gt;Designing a great website&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;designing-a-great-website&quot;&gt;Designing a great website&lt;/h1&gt;
 
-&lt;div&gt;&lt;img src=&quot;http://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg&quot; alt=&quot;Great website for learning code&quot; width=&quot;30%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;http://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg&quot; alt=&quot;Great website for learning code&quot; width=&quot;30%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Great website for learning code&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;p&gt;Codecademy&amp;#39;s website has been growing on me ever since I started using it a couple months ago. With their refreshed design that was recently done, I think they are now my favorite website. It is so clean, and there is nothing unnecessary on the page. I love how it immediately brings up the last tutorial you were working on. Not only that, they have the other tutorials that have not been finished beneath the most recent one. As far as usability, that puts everything I need 95% of the time on the first screen that I go to. I don&amp;#39;t have to waste time clicking around to get going on what I want to work on that day.&lt;/p&gt;
+&lt;p&gt;Codecademy’s website has been growing on me ever since I started using it a couple months ago. With their refreshed design that was recently done, I think they are now my favorite website. It is so clean, and there is nothing unnecessary on the page. I love how it immediately brings up the last tutorial you were working on. Not only that, they have the other tutorials that have not been finished beneath the most recent one. As far as usability, that puts everything I need 95% of the time on the first screen that I go to. I don’t have to waste time clicking around to get going on what I want to work on that day.&lt;/p&gt;
 
 &lt;p&gt;They also have really clean icons. I think icons are key for a good website. They need to trigger your mind to what they will bring up when clicked. They do a great job of using standard icons for certain programming languages while making the icons fit the colors and style of their site. Icons do a lot of work bringing the design of the site together as a whole because they are throughout many of the pages.&lt;/p&gt;
 
-&lt;p&gt;After spending time on codecademy, I feel like I have been very productive. They have great pop-ups for when you hit certain goals or finish any number of tasks. These pop-ups are clean and effective. There is no advertising or distraction. If I spend a day in the yard planting flowers or something, I feel extremely accomplished. If I spend a day on my computer, I don&amp;#39;t always get this sense of accomplishment. However, on codecademy that is different because they have such great ways of indicating progress. I once heard that one need of the ADD person is that they need immediate stimulus in response to work they are doing. Mowing the lawn is good for an ADD person because they can see the work they have done, and it motivates them to keep getting things done. Codecademy is good in this way. It&amp;#39;s clean design and progress indicators helps you feel like you are actually getting something done.&lt;/p&gt;
+&lt;p&gt;After spending time on codecademy, I feel like I have been very productive. They have great pop-ups for when you hit certain goals or finish any number of tasks. These pop-ups are clean and effective. There is no advertising or distraction. If I spend a day in the yard planting flowers or something, I feel extremely accomplished. If I spend a day on my computer, I don’t always get this sense of accomplishment. However, on codecademy that is different because they have such great ways of indicating progress. I once heard that one need of the ADD person is that they need immediate stimulus in response to work they are doing. Mowing the lawn is good for an ADD person because they can see the work they have done, and it motivates them to keep getting things done. Codecademy is good in this way. It’s clean design and progress indicators helps you feel like you are actually getting something done.&lt;/p&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;http://thewirecutter.wpengine.netdna-cdn.com/wp-content/themes/thewirecutter/thewirecutter/img/logo/header.png&quot; alt=&quot;For when it&#39;s time to buy something new&quot; width=&quot;30%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;http://thewirecutter.wpengine.netdna-cdn.com/wp-content/themes/thewirecutter/thewirecutter/img/logo/header.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://thewirecutter.wpengine.netdna-cdn.com/wp-content/themes/thewirecutter/thewirecutter/img/logo/header.png&quot; alt=&quot;For when it&#39;s time to buy something new&quot; width=&quot;30%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;For when it&#39;s time to buy something new&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;Whenever I buy something, I spend a lot of time researching things. I could spend a couple days looking at different strollers. With so many websites reviewing things, I find myself constantly returning to wirecutter.com. They have a wide variety of things including electronics, home items, baby gear, and lots of other things. They cover a wide variety of things which is unusual for a website that focuses on reviews. There are lots of websites focusing on narrow topics, but nothing quite like wirecutter that I have found.&lt;/p&gt;
 
 &lt;p&gt;I think what makes the design effective is that they cover a pretty ridiculous amount of detail for every review, but they make it navigable in case you only have certain concerns. They looks at other major reviewers and who agrees with them in case you want that. They often give a cheaper option if you are on the cheap. They give a good summary at the end. They look at every angle you couple possibly want. With the font that they chose and the orange headers, I find it super easy to find the information that I want and nothing more. Then once you know you want to buy it, they even keep the best place to buy it from on the side. I used to open about 30 different tabs from different websites every time I was trying to find out what camera to get or whatever it may be. Using wirecutter has made things much simpler for me.&lt;/p&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;/media/technical-blogs/vimeo.jpeg&quot; alt=&quot;The place for quality videos&quot; width=&quot;30%&quot; /&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/technical-blogs/vimeo.jpeg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/technical-blogs/vimeo.jpeg&quot; alt=&quot;The place for quality videos&quot; width=&quot;30%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The place for quality videos&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;p&gt;After getting used to youtube, finding vimeo was like coming upon a serene mountain to spend some time after sitting in traffic. The first thing I notice is that they present a bunch of videos that I actually want to watch. They are all in good resolution, and they have a great grid with the videos that pulls your eyes through the different options. If you are looking for something specific, their section of categories is a great way to see the most popular videos in any category. Where youtube  seems to draw all the people to need to comment on how stupid something is and not really add any value, I think that vimeo&amp;#39;s intent matches their design in that they draw serious people who have something worthwhile to say about a film or short. There is worthwhile commenting and communities growing on vimeo, and I just don&amp;#39;t get that same feel on youtube, not that it doesn&amp;#39;t happen.&lt;/p&gt;
+&lt;p&gt;After getting used to youtube, finding vimeo was like coming upon a serene mountain to spend some time after sitting in traffic. The first thing I notice is that they present a bunch of videos that I actually want to watch. They are all in good resolution, and they have a great grid with the videos that pulls your eyes through the different options. If you are looking for something specific, their section of categories is a great way to see the most popular videos in any category. Where youtube  seems to draw all the people to need to comment on how stupid something is and not really add any value, I think that vimeo’s intent matches their design in that they draw serious people who have something worthwhile to say about a film or short. There is worthwhile commenting and communities growing on vimeo, and I just don’t get that same feel on youtube, not that it doesn’t happen.&lt;/p&gt;
 
 &lt;p&gt;Sometimes it is just the most simple things that draw you in. I love the rainbow line at the top of the screen. If you go to the bottom of the home page, there is a blue horizontal bar with some text inside. The text is simple. The blue bar is just the right width. It is the million of design details done well that add up to a website that draws you to spend time where you feel like you are doing something productive or at least semi productive. Spendting time on vimeo feels semi-productive, like I am seeing things worth spending my time to watch and consider. There are too many sites where from poor design or poor intention, the site is just the old time suck. Vimeo goes a great job giving value to images in a world that is so image saturated.&lt;/p&gt;
 </content>
@@ -554,24 +561,33 @@ time = 2 * (15 / 10) = 3 minutes to boil 2 liters of water
    <link href="http://jtimmer89.github.io//blog/cultural-blog-week1"/>
    <updated>2014-06-28T00:00:00-05:00</updated>
    <id>http://jtimmer89.github.io//blog/cultural-blog-week1</id>
-   <content type="html">&lt;h1&gt;Perspective, the DBC process&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;perspective-the-dbc-process&quot;&gt;Perspective, the DBC process&lt;/h1&gt;
 
-&lt;p&gt;In college, I found myself considering my own inner stress and the actual value in what I was accomplishing. The more that I thought about it, the more I began to feel and believe that there was little value in the content. It wasn&amp;#39;t going to help me much, and the way that it was being taught, I was not going to remember much of the actual content that was so important at the time. What was important was who I was becoming and the type of learner I was becoming. I realized that depending on who was my assessing my essay could determine whether or not I got an A or maybe even failed. If this whimsy exists, then why was I putting such emotional energy into my grades? I realized that what mattered is what happened before something was turned in. Did I put the effort that I wanted to in to what I was working on? It was about being in control on my own advancement and how I measured it. I began to experience the same emotional impact as an A or F when I finished a test based on the work I had done and the interactions that had occurred.&lt;/p&gt;
+&lt;p&gt;In college, I found myself considering my own inner stress and the actual value in what I was accomplishing. The more that I thought about it, the more I began to feel and believe that there was little value in the content. It wasn’t going to help me much, and the way that it was being taught, I was not going to remember much of the actual content that was so important at the time. What was important was who I was becoming and the type of learner I was becoming. I realized that depending on who was my assessing my essay could determine whether or not I got an A or maybe even failed. If this whimsy exists, then why was I putting such emotional energy into my grades? I realized that what mattered is what happened before something was turned in. Did I put the effort that I wanted to in to what I was working on? It was about being in control on my own advancement and how I measured it. I began to experience the same emotional impact as an A or F when I finished a test based on the work I had done and the interactions that had occurred.&lt;/p&gt;
 
-&lt;p&gt;I think that something similar is going on here with what Shereef was saying. DBC can&amp;#39;t hand out some certificate that universally means something to the world. They actually have to create value, and they will live and die on whether or not employers see value in what they have taught people. University&amp;#39;s just give some practically imaginary status when you finish, but they aren&amp;#39;t truly under pressure to create value. How would this type of system not create laziness? It is inherently bad. Education is on the brink of revolution because of technology. Education on technology mine as well lead the way to a new paradigm of education.&lt;/p&gt;
+&lt;p&gt;I think that something similar is going on here with what Shereef was saying. DBC can’t hand out some certificate that universally means something to the world. They actually have to create value, and they will live and die on whether or not employers see value in what they have taught people. University’s just give some practically imaginary status when you finish, but they aren’t truly under pressure to create value. How would this type of system not create laziness? It is inherently bad. Education is on the brink of revolution because of technology. Education on technology mine as well lead the way to a new paradigm of education.&lt;/p&gt;
 
-&lt;p&gt;I love the idea of owning what you are doing. It is way too easy to pass judgement on the teacher or chef who is supposed to be feeding you, but what is that accomplishing?! What good is happening when college students merely pass judgement on their experience and do whatever they need to just to pass the &amp;quot;standards.&amp;quot; It would be like writing tests for your code and only making sure they pass the tests but not making sure they are actually accomplishing their goals. That would be a waste of time, but that is what college can be like. There is definitely generalization in what I am saying, but I saw it too much to ignore it.&lt;/p&gt;
+&lt;p&gt;I love the idea of owning what you are doing. It is way too easy to pass judgement on the teacher or chef who is supposed to be feeding you, but what is that accomplishing?! What good is happening when college students merely pass judgement on their experience and do whatever they need to just to pass the “standards.” It would be like writing tests for your code and only making sure they pass the tests but not making sure they are actually accomplishing their goals. That would be a waste of time, but that is what college can be like. There is definitely generalization in what I am saying, but I saw it too much to ignore it.&lt;/p&gt;
 
-&lt;p&gt;In business, you have to measure the impact of what you are doing and make sure you are adding value for others so that you can legitimately make money yourself. I think education has to be the same way. It is important to ponder what you are doing and learning and whether or not it is sustainable and impacting on your life. I think the problem is that we can be bad value assessors. We look at art, and we don&amp;#39;t always see the value in it. We want to try and count the numbers of values when value is a lot more fluid like water sometimes. I think the main thing is that as learners, we are doing are best to at least consider what we are doing and how to spend our time or what to work hard on. Education is mostly a system based on fear of getting a bad grade. Who cares though, really? We can all play by those rules and continue marching on, but I can&amp;#39;t help but consider the wasted money and time spent on educations that aren&amp;#39;t actually doing anything productive. The world needs innovative and good solutions in all areas, and I hope that this model can spread in unique ways to other arena&amp;#39;s of education. I am excited to see what DBC is like in person for these reasons.&lt;/p&gt;
+&lt;p&gt;In business, you have to measure the impact of what you are doing and make sure you are adding value for others so that you can legitimately make money yourself. I think education has to be the same way. It is important to ponder what you are doing and learning and whether or not it is sustainable and impacting on your life. I think the problem is that we can be bad value assessors. We look at art, and we don’t always see the value in it. We want to try and count the numbers of values when value is a lot more fluid like water sometimes. I think the main thing is that as learners, we are doing are best to at least consider what we are doing and how to spend our time or what to work hard on. Education is mostly a system based on fear of getting a bad grade. Who cares though, really? We can all play by those rules and continue marching on, but I can’t help but consider the wasted money and time spent on educations that aren’t actually doing anything productive. The world needs innovative and good solutions in all areas, and I hope that this model can spread in unique ways to other arena’s of education. I am excited to see what DBC is like in person for these reasons.&lt;/p&gt;
 </content>
  </entry>
  
 
 </feed>
 
-</div>
-<footer class="clean" style="background-image: url(/assets/images/TheCity_18.jpg); background-position: bottom; height: 60px;">
-	<p class="copyright">&copy;2014, <a href="http://camporez.com" target="_blank">Camporez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Some rights reserved</a>.</p>
-</footer>
-</body>
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+		    $.stellar({
+		    	responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+		    });
+		});
+		</script>
+	</body>
 </html>
