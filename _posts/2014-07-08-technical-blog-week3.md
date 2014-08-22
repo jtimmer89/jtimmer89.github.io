@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Technical Blog: JavaScript in Web Development"
+quote: Looking at the rise of javascript popularity in web development.
+image: /media/technical-blogs/AutumnLake_14.jpg
+video: false
+---
+
+#Javascript + Web Development = Popular
+
+It seems that Javascript is popular in web development for many reasons. There seems to be a disjunct history that explains why it is popular, and I will do my best to hit some of those key points. Netscape had a big role in making Javascript popular. Javascript was used in Netscape Navigator which was the big dog of browsers in its day. It ran in the browser, and this was at a time when browsers were growing in popularity. I believe that it was used in Google Maps which was becoming a huge service around 2005. Javascript gives a developer some serious dynamic content creating ability through the browser. Thus, you have a language that become popular with the rise of the web and the increased viewing of content through a browser.
+
+That’s great, but haven’t there been other languages that are part of the browser? Definitely. So why did Javascript end up being the language that was most widely adopted? This could be related to both it simplicity and sufficient depth to do more complex tasks. The web was just becoming popular, and you could get a decent job with pretty basic programming skills. Javascript was a good solution because it allowed very basic html programmers to start adding dynamic features with javascript while allowing room for more advanced programmers to tackle more aggressive projects.
+
+##Strengths of Javascript
+
+After reading some blogs online and the already released blogs from DBC members, there seems to be some fairly agreed upon strengths and weaknesses of Javascript. The biggest strength is that it is run server side. It is actually run in the browser of the user. This could be compared to outsourcing your homework. If you send your homework to India, that is great. It gets done by some math wizard, and then you don’t have to do it. Well, that’s not really great, but you get the point. The problem with this? If your homework is due today, then it will not get back before you need it. Now the web is much faster than having to send your homework to India, but we expect the web to move fast. If you have to send code back to the server to run, you will have some speed issues versus just running it locally or doing your homework yourself to continue the metaphor.
+
+I can’t really tell from my own experience, but I read that Javascript is a pretty simple language. That is pretty great for people like me who are learning to really love coding, but find a hard time knowing where to start. Programming has required, for me, learning a whole new way to think about problems. In the book <em>Learn to Program</em> by Chris Pine, he talks about how making a peanut butter jelly sandwich is pretty simple, but if you are trying to write a program for that, it is pretty challenging. How does the computer know where a cabinet is or a method for spreading? All these things down to the most microscopic part of making a sandwich needs to be coded explicitly. That isn’t easy so for javascript to be a relatively simple programming language, that helps beginners like myself to create things that inspire me to keep creating and making code more elegant and refined.
+
+The final strength of Javascript that stood out to me is what I would call versatility. It is loaded through the browser which means you don’t need to download something else for it to run. That is really nice. I hate having to update flash or something all the time to stay up to date. Javascript can also be inserted into most web pages. It doesn’t have to explicitly be a js page or file. Ease of use has a huge impact on what I choose to spend time on. With a versatile language, that would hopefully draw lots of developers, and the more developers using a language, the more utilities and innovation that will happen.
+
+##Limitations of Javascript
+
+One of the main limitations of Javascript that stood out to me was the inability to access a database or read and write to a server file. There seems to be ways around this, but it’s not ideal to have to implement outside solutions for accessing a database. When I think of my most important websites, they all have users and users needs databases. This makes Javascript less than ideal in ways I don’t quite understand yet.
+
+Since Javascript is run through a browser, this makes it easier to attack with malicious code that is targeted to get user data. I’m not sure why being run in the browser creates security issues, but from what I read, I would guess that if the code is actually being run in the browser, this might give you some direct access to the user’s computer as opposed to code that is being run on a server and sent to the user. Going along with the browser detail, think about how many hundreds of browsers are out there. This means that different browsers might run the code differently not giving users a uniform experience.
+
+Those are some of the main issues, and I am sure that as I understand Javascript better, I will better understand its specific weaknesses. One minor issue that stood out to me is how the internet would search for a website using javascript. Most all content creators want their stuff to be found if a user searched for certain keywords. The way that Javascript links to pages other than the home screen, the internets “spiders” are not allowed to crawl to those other pages. This can limit how well you can be found online. That would be a big problem for most websites.

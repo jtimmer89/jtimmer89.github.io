@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Cultural Blog: Thinking Styles"
+quote: Considering my personal thinking style as it relates to the DBC experience.
+image: /media/cultural-blogs/MountainView_19.jpg
+video: false
+---
+
+#Abstract Random Thinking Style
+
+I scored most highly as an Abstract Random thinker but also highly as a Concrete Random thinker. From my research, there were parts that I resonated most with. I like a noncompetitive atmosphere. Paradoxically, I am super competitive with myself. I need personal attention and emotional support to be successful in my learning. I like to try things, see when they go wrong, and then how to fix it. I like brainstorming and open ended conversations without specific goals other than speaking thoughts out loud.
+
+This relates to my VARK learning style (aural). This was actually more illuminating than the thinking style stuff. I love the app Voxer. It is like a walkie talkie that you can use to send 10 minute long messages to friends. There are a couple friends that I have an ongoing dialogue with. I love saying things out loud. I actually say things I have not thought before when I  have the chance to dialogue about a subject. I am actually learning as I talk or reinforcing a concept through talking about it. When I first got engaged, I remember talking for 2 hours about Socrates (Philosophy major) to my fiancé. I was so excited. Looking back, I realized that this was solidifying what I was studying and it even gave me the chance to make some new conclusions about what Socrates was saying.
+
+Going back to my learning style, I struggle with only one way of doing things. I like different ways of doing things even if they aren't as good. I love exploring the “alternative” path, and I can’t handle when somebody defends a way of doing something by “we have always done it this way.” I contrastingly love rituals, habits, and routines, but I crave the improv that comes out of structure. I am extremely sensitive to my own feelings and the feelings of others. I like to focus on many things if I am working on a project but give my full attention to one thing at a time. I am driven to say or do things in a way others have not. I fear too much structure but crave enough structure for improvisation.
+
+##DBC as it relates to Abstract Random
+
+These are the details that stood out to me most as I read through the thinking style resources. So how do they relate to my time at DBC. Some of them will have a bigger impact on when we are all physically together. I think that my thinking style makes Phase 0 a good learning process. It allows for enough structure (pairing, challenges, etc…) that I feel comfortable, but I can choose which resources I use for studying the concept. There are a lot of paths to get each challenge accomplished.
+
+My biggest initial problem was spending large amounts of time on things that were distracting me from the challenges. Not only are rabbit holes distracting, but they are emotionally taxing when you spend a long time without checking much of the to-do list. The reflection on time in week 2 was really helpful for me. I have tried the pomodoro technique for work but didn’t stick with it. I started doing this technique for the challenges, and it has gone a long way to help motivate me by getting challenges done, but also having time to research things that interest me while being aware of how many “tomatoes" I am allowing for anything. This all relates to my thinking style because I didn’t actually have enough structure to be successful initially. Without the needed structure, I just fall apart, lack direction, and feel overwhelmed by even a small task. I am a person who loves abstract randomness, but the structure is what always allows for beneficial abstract randomness in my case.
+
+##Growth vs. Fixed Mindset
+
+I immediately wanted to talk to my co-workers about the growth and fixed mindset concepts after reading about it. I think it revealed a lie that I was believing that intelligence is static. I think that because some intelligence is inborn. If we are all on some trek to the top of the mountain, some people might start only a mile away while others start 40 miles away. However, given a lifetime, this starting point isn’t really that important in some ways> it is more important that you are headed somewhere. That you are on the trek. A lot of geniuses might have never trekked and just lived off of their natural intelligence. I believe that.
+
+As this relates to opening up my mind to other ways of learning, the first thing I think of is the concrete sequential or abstract sequential which might rely on experts or the solutions of others. I read (I think somewhere in the DBC material) that a bigger part of being a developer than writing code is actually just reading code. I have started to look at the code of other’s Github websites and making sure I understand what they are doing. This doesn’t come very natural for me. I think taking time to look at the solutions of others and applying that to what I am doing is a good way I can begin to grow my thinking style to become more responsive and adaptive in my own problem solving. If I am making my websites responsive, I probably need to do the same thing to my noggin.

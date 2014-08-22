@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="canonical" href="http://jtimmer89.github.io//blog/technical-blog-week8" />
+	<meta name="description" content="What is Ruby on Rails and what is it good for?" />
+	<meta property="og:description" content="What is Ruby on Rails and what is it good for?" />
+	<meta itemprop="image" content="http://jtimmer89.github.io//media/technical-blogs/AutumnLake_14.jpg" />
+	<meta property="og:image" content="http://jtimmer89.github.io//media/technical-blogs/AutumnLake_14.jpg" />
+	<meta property="og:title" content="Technical Blog: Ruby on Rails" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://jtimmer89.github.io//blog/technical-blog-week8" />
+	<meta property="og:site_name" content="jtimmer" />
+	<title>Technical Blog: Ruby on Rails &middot; jtimmer</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1001px)" href="/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1000px)" href="/assets/css/mobile.css" />
+	<link href="/assets/css/genericons.css" type="text/css" rel="stylesheet" />
+	<link href="/assets/css/syntax.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+	<link rel="apple-touch-icon" href="http://jtimmer89.github.io//assets/images/icon.png">
+	<link rel="shortcut icon" href="http://jtimmer89.github.io//assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://jtimmer89.github.io//atom.xml">
+</head>
+<body>
+	<header class="clean" style="background-image: url(/media/technical-blogs/AutumnLake_14.jpg);height: 100%;">
+	
+	<label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<div class="menu" style="background-color: #777; z-index: -1;"></div>
+	
+	<a href="/">Home</a><br>
+	
+	<a href="/about">About</a><br>
+	
+</div>
+<div class="social-links">
+	
+	<a href="https://twitter.com/ProfSmallPine" target="_blank" title="Follow me on twitter"><span class="genericon genericon-twitter"></span></a>
+	
+	<a href="https://github.com/jtimmer89" target="_blank" title="Fork me on github"><span class="genericon genericon-github"></span></a>
+	
+	<a href="https://plus.google.com/+JosephTimmer" target="_blank" title="Add me on google+"><span class="genericon genericon-googleplus-alt"></span></a>
+	
+</div>
+	<div id="post-info">
+		<h1>Technical Blog: Ruby on Rails</h1>
+		
+			<h2>What is Ruby on Rails and what is it good for?</h2>
+		
+		<a class="site-title" href="http://jtimmer89.github.io/"><img src="/assets/images/icon.png" class="site-icon-small">jtimmer</a>, on 12 August 2014
+	</div>
+	<div id="nav-icon" style="bottom: 60px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="article">
+	<h1>A Little Context</h1>
+
+<p>I just read through the Ruby on Rails summary on wikipedia, and there is a lot more that I now understand than I did 3 months ago. Some things even seem pretty basic and elementary. However, there is still much that is extremely vague and cloudy to my understanding. I have always loved computers. I remember getting my first Mac at a garage sale for $20 when silver bodied powerbooks were capturing the world&#39;s attention. I couldn’t quite afford such a computer. As a result of my deep interest, I found myself clicking on every button that was offered up at the top bar of the desktop and applications. As I grew in my understanding of the computer, I would think up things I wished my computer could do, and I would make it do it. For example, I wanted my computer to be more like a boom box, but the speakers would shut off when the lid was closed to prevent overheating. I found a way to make that happen, and it was exhilarating for me. Legitimately. However, I always shied away from the terminal. I didn’t get what it was doing, and it just seemed kind of boring. My curiosity finally led me to tackle the terminal and other more in depth aspects of my computer through the medium of Dev Bootcamp.</p>
+
+<p>I knew it would open doors I have been waiting outside of my whole life as I have always wanted to explore how exactly my computer is accomplishing its tasks. I knew that DBC dealt with things like Ruby on Rails, SQL, HTML, CSS, and Javascript among other technologies, but I had no idea what that meant truly, just notions. I have been playing with SQL, HTML, CSS, Ruby, and Javascript in the last 2 months before the in-person phase of DBC, but I am still not clear on what exactly Ruby on Rails is, one of the main focuses of bootcamp style programming educations today. I want to give an explanation from my new vantage point that would be beneficial to myself 3 months ago.</p>
+
+<h2>The Programming Mindset</h2>
+
+<p>In order to approach web technologies and what they do, I have found that I needed a change in my understanding of how to accomplish something. The more that I program, the more I apply this type of thinking to all areas of life. Programming includes considering all aspects of a problem/solution and what it will take to implement that solution in a step-by-step, block building philosophy. The best metaphor for this comes from “Learn to Program” by Chris Pine. He talks about the simple process of making a sandwich. Writing a program to accomplish this same task is insanely more complicated than you would ever really think. If you tell a computer to go to the cupboard. How does it know how to get there? How does it know where it is when you wake it up and tell it what to do? Does it have the skill of spreading peanut butter? How do you teach it how to do this? Computers are great for repeated tasks without much variation, but even making a sandwich has a massive amount of variation that is difficult to account for when programming. What if the peanut butter is almost empty? What if you need to open a new jar of jelly? All of these types of things are obvious to your average person, but they need to be considered by the computer programmer. This truly requires a new way of thinking that adapts for the most basic variations of a problem and considers all needed abilities.</p>
+
+<h2>Ruby</h2>
+
+<p>I have begun accomplishing simple tasks with the Ruby language. Ruby is similar to a foreign language. A foreign language allows you to navigate a foreign country successfully. A computer language allows you to navigate the computer and control it at its most basic levels. At some point, there were people that decided that combinations of true/false (open/close, 0s/1s) operations had certain meanings and bigger tasks than a light being on or off could be accomplished through the computer. Starting with Ruby before we get to its location on Rails, Ruby is a programming language with some beneficial qualities. It has gems which are a nice way of sharing features. If you created a program for spreading peanut butter, you could package that code into a spreading peanut butter gem and others could easily install it to use for spreading some other item, maybe orange marmalade. This creates an awesome communal quality for the Ruby language, people helping one another. It also removes the excess of code you might have to personally create for any given project.</p>
+
+<h2>Rails</h2>
+
+<p>Rails is a web framework for creating a website. It combines HTML, CSS, and Javascript with Ruby to do great things. One of those great things is setting standards. The Ruby on Rails community sets standards for doing things and then creates gems to accomplish those tasks. Every website needs similar things. There is probably a good way of doing that. Most websites needs users for example. Rather than each programmers tasked with the massive undertaking of creating everything from the ground up, there are pre-made salads that can be quickly grabbed rather than growing each leaf of lettuce and it taking two months to prepare the salad. The point is that there are pieces of code that can be quickly snatched while still leaving tons of room for optimization and customization. One downfall then is that “magic” seems to be happening in a Ruby program where the programmer might not know exactly how it is functioning. There are things written deeply into Rails that guide how a database performs. Personally, I hope to do things that I understand without finding shortcuts. There must be a balance of doing something with agility and efficiency while actually knowing where each part of the your code is accomplishing each task.</p>
+
+<p>My fear with learning Ruby on Rails is that I will be a fragile instead of an agile developer who only knows how to accomplish the goal at hand, but if there is something very specific I want to accomplish, I might not know where I can make this happen in the code since Rails is grabbing a gem to accomplish a task. However, I am quickly seeing the value in Ruby on Rails as far as it makes development a much quicker process. In a way, Wordpress makes it much quicker to build a website for someone who doesn’t know any code, but they can quickly run into problems since they don’t know where something is coming from in the HTML for example. I want to understand what I am doing and how it is happening. I guess that is just the tension when approaching something that is so massive (web development, tons of different languages, databases, etc…), and I hope to learn how to understand what I am doing while still maintaining an effective workflow.</p>
+
+</div>
+
+<footer class="clean" style="background-image: url(/media/cultural-blogs/MountainView_19.jpg);height: 75%; min-height: 500px;">
+	<div id="nav-icon" style="top: 25px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<div id="post-info">
+		<h3>Featured post</h3>
+		<a href="/blog/cultural-blog-week9">
+			<h1>Cultural Blog: Asking Questions</h1>
+			
+				<h2>How do you ask good technical questions?</h2>
+			
+		</a>
+	</div>
+	<p class="copyright">&copy;2014, <a href="http://camporez.com" target="_blank">Camporez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Some rights reserved</a>.</p>
+</footer>
+
+<script src="/assets/js/smooth-scroll.js"></script>
+</body>
+</html>
