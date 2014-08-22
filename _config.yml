@@ -11,7 +11,7 @@ tagline:	'blog'
 description:	'My personal blog.'
 url:		http://jtimmer89.github.io/
 commentsystem:	google
-disqus:		example
+disqus:		jtimmer89
 
 author:
   name:		'Joseph Timmer'
@@ -20,7 +20,7 @@ author:
 paginate:	5
 
 # Custom vars
-icon:		/assets/images/icon.png
+icon:		/assets/images/icon2.png
 cover:  /assets/images/TheCity_18.jpg
 
 social:
