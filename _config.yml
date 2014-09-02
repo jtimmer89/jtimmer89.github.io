@@ -36,9 +36,6 @@ social:
     url:	https://plus.google.com/+JosephTimmer
     desc:	Add me on google+
 
-  - icon:	feed
-    url:	http://jtimmer89.github.io/atom.xml
-    desc:	Subscribe to my feed
     
 menu:
   - title:	Home
