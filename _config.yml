@@ -9,9 +9,9 @@ permalink:	/blog/:title
 title:		Joe Timmer
 tagline:	'blog'
 description:	'My personal blog.'
-url:		http://jtimmer89.github.io/
+url:		http://profsmallpine.github.io/
 commentsystem:	google
-disqus:		jtimmer89
+disqus:		profsmallpine
 
 author:
   name:		'Joseph Timmer'
