@@ -4,7 +4,7 @@ title: About the site and its author.
 ---
 
 <div class="message">
-  I am in the middle of a career shift from technical sales in the food industry to web development. This transition is firmly rooted in my love of learning. I have expereince with Ruby on Rails, Angular, JQuery, Javascript, C#, ASP.NET MVC, Redis, Rest API's, OAuth, SQL Server, PostgreSQL, and many other odds and oods.
+  I made a career shift from technical sales and programming in the food industry to web development. This transition is firmly rooted in my love of learning. I have expereince with Ruby on Rails, Angular, JQuery, Javascript, C#, ASP.NET MVC, Redis, Rest API's, OAuth, SQL Server, PostgreSQL, and many other odds and oods.
 </div>
 
 {% include image.html url="/assets/images/profilepic.gif" width="20%" description="Professor Small Pine" %}
