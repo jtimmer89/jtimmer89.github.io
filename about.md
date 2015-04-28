@@ -4,13 +4,13 @@ title: About the site and its author.
 ---
 
 <div class="message">
-  I am currently in Dev Bootcamp. I am learning HTML, CSS, Javascript, and Ruby on Rails among other technologies. I made this website to host blog posts that I will be writing throughout my DBC experience. 
+  I am in the middle of a career shift from technical sales in the food industry to web development. This transition is firmly rooted in my love of learning. I have expereince with Ruby on Rails, Angular, JQuery, Javascript, C#, ASP.NET MVC, Redis, Rest API's, OAuth, SQL Server, PostgreSQL, and many other odds and oods.
 </div>
 
 {% include image.html url="/assets/images/profilepic.gif" width="20%" description="Professor Small Pine" %}
 
-You can reach me at 406.599.3209 or joe.timmer89@gmail.com.
+You can reach me at 406.599.3209 or profsmallpine@gmail.com.
 
 <div class="message">
-  I enjoy learning the computer from the inside out so I can make it do what I want. I love reading a good book, and I hope to add cool projects that I am working on as time goes on. Thanks for checking my site out! 
+  I enjoy learning the computer from the inside out so I can make it do what I want. I love reading a good book. If you want to chat about web development, doing work that you love, food & farming, or anything related to the inevitable revolution of education through technology, just holler
 </div>

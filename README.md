@@ -1,6 +1,5 @@
 #Thinny - The Infinite's Nymphet
 
-
 ----
 
 ###Attention: We need a "share to social networks" functionality.

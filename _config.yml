@@ -29,7 +29,7 @@ social:
     desc:	Follow me on twitter
 
   - icon:	github
-    url:	https://github.com/jtimmer89
+    url:	https://github.com/profsmallpine
     desc:	Fork me on github
 
   - icon:	googleplus-alt
@@ -45,8 +45,8 @@ menu:
     url:	/about
     
 copyright:
-  author:	Camporez
-  url:		http://camporez.com
+  author:	profsmallpine
+  url:		http://profsmallpine.github.io
   type_title:	Some rights reserved
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
